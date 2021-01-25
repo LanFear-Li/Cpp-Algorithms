@@ -90,4 +90,12 @@ public:
     void listDeleteAfter(Node* x);
 };
 
+class circular: LanLinkedList{
+    Node* nil;
+};
+// nil.next   = head
+// nil.prior  = tail
+// tail.next  = nil
+// head.prior = nil
+
 #endif //ALGORITHMSCLASS_ALGORITHMS_H

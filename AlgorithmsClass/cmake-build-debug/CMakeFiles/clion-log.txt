@@ -1,4 +1,4 @@
-"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Files\CodeStorage\CLion\AlgorithmsClass
+"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Files\MyRepo\Cpp-Algorithms\AlgorithmsClass
 -- The C compiler identification is GNU 4.9.2
 -- The CXX compiler identification is GNU 4.9.2
 -- Check for working C compiler: D:/IDE/Dev-Cpp/MinGW64/bin/gcc.exe
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Files/CodeStorage/CLion/AlgorithmsClass/cmake-build-debug
+-- Build files have been written to: D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug
