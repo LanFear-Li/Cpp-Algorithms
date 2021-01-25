@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/CodeStorage/CLion/AlgorithmsClass/Algorithms.cpp
+Algorithms.h
+D:/Files/CodeStorage/CLion/AlgorithmsClass/Algorithms.h
+bits/stdc++.h
+-
+
+D:/Files/CodeStorage/CLion/AlgorithmsClass/Algorithms.h
+iostream
+D:/Files/CodeStorage/CLion/AlgorithmsClass/iostream
+
+D:/Files/CodeStorage/CLion/AlgorithmsClass/test.cpp
+iostream
+D:/Files/CodeStorage/CLion/AlgorithmsClass/iostream
+Algorithms.h
+D:/Files/CodeStorage/CLion/AlgorithmsClass/Algorithms.h
+
