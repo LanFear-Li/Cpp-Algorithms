@@ -98,4 +98,18 @@ class circular: LanLinkedList{
 // tail.next  = nil
 // head.prior = nil
 
+class tNode{
+public:
+    int key;
+    tNode* parent;
+    tNode* left;
+    tNode* right;
+};
+
+class LanTree{
+public:
+    tNode* root;
+};
+
 #endif //ALGORITHMSCLASS_ALGORITHMS_H
+
