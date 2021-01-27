@@ -1,0 +1,12 @@
+//
+// Created by LanFear on 2021/1/27.
+//
+
+#ifndef DATASTRUCTURE_STRUCTURES_H
+#define DATASTRUCTURE_STRUCTURES_H
+
+
+
+
+
+#endif //DATASTRUCTURE_STRUCTURES_H

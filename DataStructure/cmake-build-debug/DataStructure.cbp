@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/Structures.cpp">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/Structures.h">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/main.cpp">
 			<Option target="DataStructure"/>
 		</Unit>

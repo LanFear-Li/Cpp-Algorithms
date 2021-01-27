@@ -142,6 +142,33 @@ DataStructure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
+Structures.obj: Structures.cpp.obj
+
+.PHONY : Structures.obj
+
+# target to build an object file
+Structures.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Structures.cpp.obj
+.PHONY : Structures.cpp.obj
+
+Structures.i: Structures.cpp.i
+
+.PHONY : Structures.i
+
+# target to preprocess a source file
+Structures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Structures.cpp.i
+.PHONY : Structures.cpp.i
+
+Structures.s: Structures.cpp.s
+
+.PHONY : Structures.s
+
+# target to generate assembly for a file
+Structures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Structures.cpp.s
+.PHONY : Structures.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructure
+	@echo ... Structures.obj
+	@echo ... Structures.i
+	@echo ... Structures.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
