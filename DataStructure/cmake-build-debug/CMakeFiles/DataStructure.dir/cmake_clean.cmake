@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Structures.cpp.obj"
   "CMakeFiles/DataStructure.dir/main.cpp.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
