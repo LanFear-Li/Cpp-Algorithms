@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/Structures.h
+iomanip
+-
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/iostream
+
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/main.cpp
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/iostream
+Structures.h
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/Structures.h
+
