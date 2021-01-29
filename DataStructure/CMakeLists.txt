@@ -3,4 +3,4 @@ project(DataStructure)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(DataStructure main.cpp Structures.h)
+add_executable(DataStructure test.cpp Structures.h)
