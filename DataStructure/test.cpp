@@ -14,7 +14,7 @@ int main() {
     preorderTreeWalk(tree->root);
     std::cout << std::endl;
     postorderTreeWalk(tree->root);
-    std::cout << std::endl;
+    std::cout << std::endl; 
 
     std::cout << "the element you searched is: " << treeSearch(tree->root, 5)->data << std::endl;
     std::cout << "the minimum element is: " << treeMinimum(tree->root)->data << std::endl;

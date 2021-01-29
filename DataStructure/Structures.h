@@ -159,4 +159,8 @@ Node* treePredecessor(Node* node) {
     }
 }
 
+void treeInsert(const int &val) {
+
+}
+
 #endif //DATASTRUCTURE_STRUCTURES_H
