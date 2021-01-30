@@ -159,8 +159,79 @@ Node* treePredecessor(Node* node) {
     }
 }
 
-void treeInsert(const int &val) {
+void treeInsert(Tree* tree, const int &val) {
+    Node* node = new Node;
+    Node* x = tree->root;
+    Node* y = nullptr;
+    node->data = val;
+    while (x != nullptr) {
+        y = x;
+        if (val < x->data) {
+            x = x->left;
+        } else {
+            x = x->right;
+        }
+    }
+    node->p = y;
+    if (y == nullptr) {
+        tree->root = node;
+    } else if (val < y->data) {
+        y->left = node;
+    } else {
+        y->right = node;
+    }
+}
 
+void treeDelete(Tree* tree, Node* node) {
+    if (node->left == nullptr && node->right == nullptr) {
+        if (node->p == nullptr) {
+            node = nullptr;
+            std::cout << "root node has been deleted! " << std::endl;
+        } else if (node->p->left != nullptr && node->p->left == node) {
+            node->p->left = nullptr;
+        } else {
+            node->p->right = nullptr;
+        }
+    } else if (node->left != nullptr && node->right != nullptr) {
+        Node* keyNode = treeSuccessor(node);
+        if (keyNode->p->left == keyNode) {
+            keyNode->p->left = nullptr;
+        } else {
+            keyNode->p->right = nullptr;
+        }
+        if (node->p == nullptr) {
+            keyNode->p = nullptr;
+        } else if (node->p->left == node) {
+            keyNode->p = node->p;
+            node->p->left = keyNode;
+        } else {
+            keyNode->p = node->p;
+            node->p->right = keyNode;
+        }
+        keyNode->left = node->left;
+        node->left->p = keyNode;
+        keyNode->right = node->right;
+    } else {
+        if (node->left != nullptr) {
+            node->left->p = node->p;
+            if (node->p != nullptr) {
+                if (node->p->left == node) {
+                    node->p->left = node->left;
+                } else {
+                    node->p->right = node->left;
+                }
+            }
+        } else {
+            node->right->p = node->p;
+            if (node->p != nullptr) {
+                if (node->p->left == node) {
+                    node->p->left = node->right;
+                } else {
+                    node->p->right = node->right;
+                }
+            }
+        }
+    }
 }
 
 #endif //DATASTRUCTURE_STRUCTURES_H
