@@ -182,55 +182,89 @@ void treeInsert(Tree* tree, const int &val) {
     }
 }
 
-void treeDelete(Tree* tree, Node* node) {
-    if (node->left == nullptr && node->right == nullptr) {
-        if (node->p == nullptr) {
-            node = nullptr;
-            std::cout << "root node has been deleted! " << std::endl;
-        } else if (node->p->left != nullptr && node->p->left == node) {
-            node->p->left = nullptr;
-        } else {
-            node->p->right = nullptr;
-        }
-    } else if (node->left != nullptr && node->right != nullptr) {
-        Node* keyNode = treeSuccessor(node);
-        if (keyNode->p->left == keyNode) {
-            keyNode->p->left = nullptr;
-        } else {
-            keyNode->p->right = nullptr;
-        }
-        if (node->p == nullptr) {
-            keyNode->p = nullptr;
-        } else if (node->p->left == node) {
-            keyNode->p = node->p;
-            node->p->left = keyNode;
-        } else {
-            keyNode->p = node->p;
-            node->p->right = keyNode;
-        }
-        keyNode->left = node->left;
-        node->left->p = keyNode;
-        keyNode->right = node->right;
+// delete function with if statements
+//void treeDelete(Tree* tree, Node* node) {
+//    if (node->left == nullptr && node->right == nullptr) {
+//        if (node->p == nullptr) {
+//            node = nullptr;
+//            std::cout << "root node has been deleted! " << std::endl;
+//        } else if (node->p->left != nullptr && node->p->left == node) {
+//            node->p->left = nullptr;
+//        } else {
+//            node->p->right = nullptr;
+//        }
+//    } else if (node->left != nullptr && node->right != nullptr) {
+//        Node* keyNode = treeSuccessor(node);
+//        if (keyNode->p->left == keyNode) {
+//            keyNode->p->left = nullptr;
+//        } else {
+//            keyNode->p->right = nullptr;
+//        }
+//        if (node->p == nullptr) {
+//            keyNode->p = nullptr;
+//        } else if (node->p->left == node) {
+//            keyNode->p = node->p;
+//            node->p->left = keyNode;
+//        } else {
+//            keyNode->p = node->p;
+//            node->p->right = keyNode;
+//        }
+//        keyNode->left = node->left;
+//        node->left->p = keyNode;
+//        keyNode->right = node->right;
+//    } else {
+//        if (node->left != nullptr) {
+//            node->left->p = node->p;
+//            if (node->p != nullptr) {
+//                if (node->p->left == node) {
+//                    node->p->left = node->left;
+//                } else {
+//                    node->p->right = node->left;
+//                }
+//            }
+//        } else {
+//            node->right->p = node->p;
+//            if (node->p != nullptr) {
+//                if (node->p->left == node) {
+//                    node->p->left = node->right;
+//                } else {
+//                    node->p->right = node->right;
+//                }
+//            }
+//        }
+//    }
+//    free(node);
+//}
+
+void transplant(Tree* tree, Node* u, Node* v) {
+    if (u->p == nullptr) {
+        tree->root = v;
+    } else if (u->p->left != nullptr && u->p->left == u) {
+        u->p->left = v;
     } else {
-        if (node->left != nullptr) {
-            node->left->p = node->p;
-            if (node->p != nullptr) {
-                if (node->p->left == node) {
-                    node->p->left = node->left;
-                } else {
-                    node->p->right = node->left;
-                }
-            }
-        } else {
-            node->right->p = node->p;
-            if (node->p != nullptr) {
-                if (node->p->left == node) {
-                    node->p->left = node->right;
-                } else {
-                    node->p->right = node->right;
-                }
-            }
+        u->p->right = v;
+    }
+    if (v != nullptr) {
+        v->p = u->p;
+    }
+}
+
+// delete function with transplant (child tree)
+void treeDelete(Tree* tree, Node* node) {
+    if (node->left == nullptr) {
+        transplant(tree, node, node->right);
+    } else if (node->right == nullptr) {
+        transplant(tree, node, node->left);
+    } else {
+        Node* tNode = treeMinimum(node->right);
+        if (tNode->p != node) {
+            transplant(tree, tNode, tNode->right);
+            tNode->right = node->right;
+            tNode->right->p = tNode;
         }
+        transplant(tree, node, tNode);
+        tNode->left = node->left;
+        tNode->left->p = tNode;
     }
 }
 
