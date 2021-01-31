@@ -1,23 +1,10 @@
 //
-// Created by LanFear on 2021/1/27.
+// Created by LanFear on 2021/1/31.
 //
-
-#ifndef DATASTRUCTURE_STRUCTURES_H
-#define DATASTRUCTURE_STRUCTURES_H
 
 #include <iomanip>
 #include "iostream"
-
-typedef struct node {
-    int data = 0;
-    node* p = nullptr;
-    node* left = nullptr;
-    node* right = nullptr;
-} Node;
-
-typedef struct tree {
-    Node* root = nullptr;
-} Tree;
+#include "binarySearchTree.h"
 
 void buildTree(Tree* tree, const int &val) {
     Node* node = new Node;
@@ -267,5 +254,3 @@ void treeDelete(Tree* tree, Node* node) {
         tNode->left->p = tNode;
     }
 }
-
-#endif //DATASTRUCTURE_STRUCTURES_H
