@@ -1,3 +1,0 @@
-D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug/CMakeFiles/AlgorithmsClass.dir
-D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug/CMakeFiles/edit_cache.dir
