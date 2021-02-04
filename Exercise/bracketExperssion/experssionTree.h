@@ -3,7 +3,7 @@
 //
 
 /* Set several purposes as follows:
- * 1 check the bracket expression whether is legal.
+ * 1 check the Arithmetic expression whether is legal.
  * 2 output three kinds of tree walk of the expression.
  * 3 output the answer of the expression.
  * */
@@ -13,8 +13,6 @@
 
 #include <iostream>
 #include "iomanip"
-
-bool legalityCheck(const std::string &x);
 
 typedef struct node {
     int data = 0;
@@ -59,5 +57,9 @@ void transplant(Tree* tree, Node* u, Node* v);
 
 // delete function with transplant (child tree)
 void treeDelete(Tree* tree, Node* node);
+
+bool legalityCheck(const std::string &x);
+
+Tree* buildExpressionTree(const std::string &x);
 
 #endif //BRACKETEXPERSSION_EXPERSSIONTREE_H

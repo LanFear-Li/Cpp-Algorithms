@@ -30,6 +30,7 @@ Tree* buildExpressionTree(const std::string &x) {
             data += 1;
         }
     }
+    return tree;
 }
 
 // binary search tree *************************************************************
@@ -66,24 +67,24 @@ void buildTree(Tree* tree, const int &val, const char &str) {
 void inorderTreeWalk(Node* node) {
     if (node != nullptr) {
         inorderTreeWalk(node->left);
-        std::cout << std::setw(8) << node->data;
+        std::cout << node->str;
         inorderTreeWalk(node->right);
     }
 }
 
 void preorderTreeWalk(Node* node) {
     if (node != nullptr) {
-        std::cout << std::setw(8) << node->data;
-        inorderTreeWalk(node->left);
-        inorderTreeWalk(node->right);
+        std::cout << node->str;
+//        preorderTreeWalk(node->left);
+//        preorderTreeWalk(node->right);
     }
 }
 
 void postorderTreeWalk(Node* node) {
     if (node != nullptr) {
-        inorderTreeWalk(node->left);
-        inorderTreeWalk(node->right);
-        std::cout << std::setw(8) << node->data;
+        postorderTreeWalk(node->left);
+        postorderTreeWalk(node->right);
+        std::cout << node->str;
     }
 }
 
