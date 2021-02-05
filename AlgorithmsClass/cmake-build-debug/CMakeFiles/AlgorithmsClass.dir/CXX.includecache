@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/Algorithms.cpp
+Algorithms.h
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/Algorithms.h
+bits/stdc++.h
+-
+
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/Algorithms.h
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/iostream
+
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/test.cpp
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/iostream
+Algorithms.h
+D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/Algorithms.h
+

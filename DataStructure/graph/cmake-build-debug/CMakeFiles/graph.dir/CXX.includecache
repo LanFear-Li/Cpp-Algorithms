@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/iostream
+vector
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/vector
+queue
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/queue
+cstring
+-
+algorithm
+D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/algorithm
+

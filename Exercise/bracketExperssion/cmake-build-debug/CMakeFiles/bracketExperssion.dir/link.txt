@@ -1,0 +1,3 @@
+"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\bracketExperssion.dir/objects.a
+D:\IDE\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\bracketExperssion.dir/objects.a @CMakeFiles\bracketExperssion.dir\objects1.rsp
+D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\bracketExperssion.dir/objects.a -Wl,--no-whole-archive  -o bracketExperssion.exe -Wl,--out-implib,libbracketExperssion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\bracketExperssion.dir\linklibs.rsp
