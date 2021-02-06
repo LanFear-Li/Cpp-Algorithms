@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp
 iostream
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/iostream
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/iostream
 vector
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/vector
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/vector
 queue
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/queue
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/queue
 cstring
 -
 algorithm
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/algorithm
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/algorithm
 

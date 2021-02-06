@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graph.dir/graph.cpp.obj"
+  "CMakeFiles/graph.dir/tarjan.cpp.obj"
   "graph.exe"
   "graph.exe.manifest"
   "graph.pdb"

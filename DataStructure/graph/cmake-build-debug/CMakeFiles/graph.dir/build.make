@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph
+CMAKE_SOURCE_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug
+CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/graph.dir/depend.make
@@ -78,30 +78,45 @@ include CMakeFiles/graph.dir/flags.make
 
 CMakeFiles/graph.dir/graph.cpp.obj: CMakeFiles/graph.dir/flags.make
 CMakeFiles/graph.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph.dir/graph.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\graph.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph.dir/graph.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\graph.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp
 
 CMakeFiles/graph.dir/graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/graph.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp > CMakeFiles\graph.dir\graph.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp > CMakeFiles\graph.dir\graph.cpp.i
 
 CMakeFiles/graph.dir/graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/graph.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp -o CMakeFiles\graph.dir\graph.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp -o CMakeFiles\graph.dir\graph.cpp.s
+
+CMakeFiles/graph.dir/tarjan.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/tarjan.cpp.obj: ../tarjan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph.dir/tarjan.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\tarjan.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp
+
+CMakeFiles/graph.dir/tarjan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/tarjan.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp > CMakeFiles\graph.dir\tarjan.cpp.i
+
+CMakeFiles/graph.dir/tarjan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/tarjan.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp -o CMakeFiles\graph.dir\tarjan.cpp.s
 
 # Object files for target graph
 graph_OBJECTS = \
-"CMakeFiles/graph.dir/graph.cpp.obj"
+"CMakeFiles/graph.dir/graph.cpp.obj" \
+"CMakeFiles/graph.dir/tarjan.cpp.obj"
 
 # External object files for target graph
 graph_EXTERNAL_OBJECTS =
 
 graph.exe: CMakeFiles/graph.dir/graph.cpp.obj
+graph.exe: CMakeFiles/graph.dir/tarjan.cpp.obj
 graph.exe: CMakeFiles/graph.dir/build.make
 graph.exe: CMakeFiles/graph.dir/linklibs.rsp
 graph.exe: CMakeFiles/graph.dir/objects1.rsp
 graph.exe: CMakeFiles/graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable graph.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable graph.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graph.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +129,6 @@ CMakeFiles/graph.dir/clean:
 .PHONY : CMakeFiles/graph.dir/clean
 
 CMakeFiles/graph.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles\graph.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles\graph.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/graph.dir/depend
 

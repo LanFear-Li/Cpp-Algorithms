@@ -2,11 +2,9 @@
 #include "vector"
 #include "queue"
 #include <cstring>
-#include "algorithm"
 using namespace std;
 
 const int MAXN = 1e5;
-
 vector<int> edge[MAXN];
 vector<int> DFSGraph, BFSGraph;
 int vis[MAXN];
@@ -38,6 +36,7 @@ void BFS(const int &x) {
     }
 }
 
+// topolpgicalSort with BFS
 vector<int> topolpgicalSort(const int& vertices, const vector<vector<int>>& edges) {
     vector<vector<int>> graph(vertices, vector<int>());
     vector<int> indegree(vertices, 0), res;
@@ -77,5 +76,4 @@ int main(){
         cin >> front >> after;
         edge[front].push_back(after);
     }
-    return 0;
 }
