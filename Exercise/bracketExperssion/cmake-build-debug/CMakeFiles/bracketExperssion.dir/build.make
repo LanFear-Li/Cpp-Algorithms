@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
+CMAKE_SOURCE_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
+CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bracketExperssion.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/bracketExperssion.dir/flags.make
 
 CMakeFiles/bracketExperssion.dir/test.cpp.obj: CMakeFiles/bracketExperssion.dir/flags.make
 CMakeFiles/bracketExperssion.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bracketExperssion.dir/test.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bracketExperssion.dir\test.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bracketExperssion.dir/test.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bracketExperssion.dir\test.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp
 
 CMakeFiles/bracketExperssion.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bracketExperssion.dir/test.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp > CMakeFiles\bracketExperssion.dir\test.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp > CMakeFiles\bracketExperssion.dir\test.cpp.i
 
 CMakeFiles/bracketExperssion.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bracketExperssion.dir/test.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp -o CMakeFiles\bracketExperssion.dir\test.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\test.cpp -o CMakeFiles\bracketExperssion.dir\test.cpp.s
 
 CMakeFiles/bracketExperssion.dir/experssionTree.cpp.obj: CMakeFiles/bracketExperssion.dir/flags.make
 CMakeFiles/bracketExperssion.dir/experssionTree.cpp.obj: ../experssionTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bracketExperssion.dir/experssionTree.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bracketExperssion.dir\experssionTree.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bracketExperssion.dir/experssionTree.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\bracketExperssion.dir\experssionTree.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp
 
 CMakeFiles/bracketExperssion.dir/experssionTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bracketExperssion.dir/experssionTree.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp > CMakeFiles\bracketExperssion.dir\experssionTree.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp > CMakeFiles\bracketExperssion.dir\experssionTree.cpp.i
 
 CMakeFiles/bracketExperssion.dir/experssionTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bracketExperssion.dir/experssionTree.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp -o CMakeFiles\bracketExperssion.dir\experssionTree.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\experssionTree.cpp -o CMakeFiles\bracketExperssion.dir\experssionTree.cpp.s
 
 # Object files for target bracketExperssion
 bracketExperssion_OBJECTS = \
@@ -116,7 +116,7 @@ bracketExperssion.exe: CMakeFiles/bracketExperssion.dir/build.make
 bracketExperssion.exe: CMakeFiles/bracketExperssion.dir/linklibs.rsp
 bracketExperssion.exe: CMakeFiles/bracketExperssion.dir/objects1.rsp
 bracketExperssion.exe: CMakeFiles/bracketExperssion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bracketExperssion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bracketExperssion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\bracketExperssion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/bracketExperssion.dir/clean:
 .PHONY : CMakeFiles/bracketExperssion.dir/clean
 
 CMakeFiles/bracketExperssion.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles\bracketExperssion.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles\bracketExperssion.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bracketExperssion.dir/depend
 

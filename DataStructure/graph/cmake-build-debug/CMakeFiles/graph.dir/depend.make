@@ -3,3 +3,5 @@
 
 CMakeFiles/graph.dir/graph.cpp.obj: ../graph.cpp
 
+CMakeFiles/graph.dir/tarjan.cpp.obj: ../tarjan.cpp
+

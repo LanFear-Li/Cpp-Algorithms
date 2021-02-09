@@ -54,25 +54,25 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
+CMAKE_SOURCE_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
+CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/bracketExperssion.dir/all
+all: CMakeFiles/bracketExpression.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/bracketExperssion.dir/clean
+clean: CMakeFiles/bracketExpression.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/bracketExperssion.dir
+# Target rules for target CMakeFiles/bracketExpression.dir
 
 # All Build rule for target.
-CMakeFiles/bracketExperssion.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target bracketExperssion"
-.PHONY : CMakeFiles/bracketExperssion.dir/all
+CMakeFiles/bracketExpression.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target bracketExpression"
+.PHONY : CMakeFiles/bracketExpression.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bracketExperssion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/bracketExperssion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/bracketExperssion.dir/rule
+CMakeFiles/bracketExpression.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/bracketExpression.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/bracketExpression.dir/rule
 
 # Convenience name for target.
-bracketExperssion: CMakeFiles/bracketExperssion.dir/rule
+bracketExpression: CMakeFiles/bracketExpression.dir/rule
 
-.PHONY : bracketExperssion
+.PHONY : bracketExpression
 
 # clean rule for target.
-CMakeFiles/bracketExperssion.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/clean
-.PHONY : CMakeFiles/bracketExperssion.dir/clean
+CMakeFiles/bracketExpression.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/clean
+.PHONY : CMakeFiles/bracketExpression.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

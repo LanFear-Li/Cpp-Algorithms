@@ -6,15 +6,5 @@
 
 #IncludeRegexTransform: 
 
-E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp
-iostream
-E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/iostream
-vector
-E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/vector
-queue
-E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/queue
-cstring
--
-algorithm
-E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/algorithm
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/tarjan.cpp
 

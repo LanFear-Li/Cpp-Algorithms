@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/debugTest/main.cpp
+iostream
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/debugTest/iostream
+

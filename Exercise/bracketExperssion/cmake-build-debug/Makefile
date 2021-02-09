@@ -58,38 +58,27 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
+CMAKE_SOURCE_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
+CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,11 +86,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\Exercise\bracketExperssion\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bracketExperssion
+# Target rules for targets named bracketExpression
 
 # Build rule for target.
-bracketExperssion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bracketExperssion
-.PHONY : bracketExperssion
+bracketExpression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bracketExpression
+.PHONY : bracketExpression
 
 # fast build rule for target.
-bracketExperssion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/build
-.PHONY : bracketExperssion/fast
+bracketExpression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/build
+.PHONY : bracketExpression/fast
 
-experssionTree.obj: experssionTree.cpp.obj
+expressionTree.obj: expressionTree.cpp.obj
 
-.PHONY : experssionTree.obj
+.PHONY : expressionTree.obj
 
 # target to build an object file
-experssionTree.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/experssionTree.cpp.obj
-.PHONY : experssionTree.cpp.obj
+expressionTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/expressionTree.cpp.obj
+.PHONY : expressionTree.cpp.obj
 
-experssionTree.i: experssionTree.cpp.i
+expressionTree.i: expressionTree.cpp.i
 
-.PHONY : experssionTree.i
+.PHONY : expressionTree.i
 
 # target to preprocess a source file
-experssionTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/experssionTree.cpp.i
-.PHONY : experssionTree.cpp.i
+expressionTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/expressionTree.cpp.i
+.PHONY : expressionTree.cpp.i
 
-experssionTree.s: experssionTree.cpp.s
+expressionTree.s: expressionTree.cpp.s
 
-.PHONY : experssionTree.s
+.PHONY : expressionTree.s
 
 # target to generate assembly for a file
-experssionTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/experssionTree.cpp.s
-.PHONY : experssionTree.cpp.s
+expressionTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/expressionTree.cpp.s
+.PHONY : expressionTree.cpp.s
 
 test.obj: test.cpp.obj
 
@@ -175,7 +175,7 @@ test.obj: test.cpp.obj
 
 # target to build an object file
 test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/test.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/test.cpp.obj
 .PHONY : test.cpp.obj
 
 test.i: test.cpp.i
@@ -184,7 +184,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -193,7 +193,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExperssion.dir\build.make CMakeFiles/bracketExperssion.dir/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bracketExpression.dir\build.make CMakeFiles/bracketExpression.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -204,10 +204,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... bracketExperssion
-	@echo ... experssionTree.obj
-	@echo ... experssionTree.i
-	@echo ... experssionTree.s
+	@echo ... bracketExpression
+	@echo ... expressionTree.obj
+	@echo ... expressionTree.i
+	@echo ... expressionTree.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

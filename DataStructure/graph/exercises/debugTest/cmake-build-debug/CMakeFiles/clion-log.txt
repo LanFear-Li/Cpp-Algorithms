@@ -1,0 +1,4 @@
+"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\exercises\debugTest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/debugTest/cmake-build-debug

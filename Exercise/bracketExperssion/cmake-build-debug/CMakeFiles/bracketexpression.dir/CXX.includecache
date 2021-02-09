@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/expressionTree.cpp
+expressionTree.h
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/expressionTree.h
+
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/expressionTree.h
+iostream
+-
+iomanip
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/iomanip
+
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/test.cpp
+iostream
+-
+expressionTree.h
+E:/codeStorage/MyRepo/Cpp-Algorithms/Exercise/bracketExperssion/expressionTree.h
+
