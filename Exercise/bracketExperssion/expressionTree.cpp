@@ -21,7 +21,8 @@ bool checkLegality(const std::string &x) {
 
 std::string generateLeftSubstring(const std::string& x, const int& place) {
     std::string str;
-    if (x.size() == 3) {
+
+    if (x.size() == 3 || place == 1) {
         str = x.substr(0, 1);
         return str;
     } else {
@@ -34,13 +35,14 @@ std::string generateLeftSubstring(const std::string& x, const int& place) {
 
 std::string generateRightSubstring(const std::string& x, const int& place) {
     std::string str;
-    if (x.size() == 3) {
+
+    if (x.size() == 3 || place + 2 == x.size()) {
         str = x.substr(place + 1);
         return str;
     } else {
         str = x.substr(place + 1);
-        str = str.substr(0, place - 1);
         str = str.substr(1);
+        str = str.substr(0, x.size() - place - 3);
         return str;
     }
 }
@@ -69,7 +71,7 @@ Node* buildExpressionTree(std::string &x) {
                 }
             }
         }
-    } 
+    }
     return node;
 }
 
@@ -86,6 +88,8 @@ int calculation(Node* root) {
                 return calculation(root->left) * calculation(root->right);
             case '/':
                 return calculation(root->left) / calculation(root->right);
+            default:
+                return 0;
         }
     }
 }

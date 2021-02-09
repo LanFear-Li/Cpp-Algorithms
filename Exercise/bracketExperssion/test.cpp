@@ -8,6 +8,6 @@ int main() {
 
     Node* root = buildExpressionTree(str);
     int res = calculation(root);
-    std::cout << res << std::endl;
+    std::cout << "the result is: " << res << std::endl;
     return 0;
 }
