@@ -33,7 +33,9 @@ std::string generateLeftSubstring(const std::string& x, const int& place) {
     std::string str;
     bool checkPossibility = true;
     for (size_t i = 0; i < place; ++i) {
-        if (x[i] < '0' || x[i] > '9') {
+        if (i == 0 && x[i] == '-') {
+            continue;
+        } else if (x[i] < '0' || x[i] > '9') {
             checkPossibility = false;
             break;
         }
@@ -53,7 +55,9 @@ std::string generateRightSubstring(const std::string& x, const int& place) {
     std::string str;
     bool checkPossibility = true;
     for (size_t i = place + 1; i < x.size(); ++i) {
-        if (x[i] < '0' || x[i] > '9') {
+        if (i == 0 && x[i] == '-') {
+            continue;
+        } else if (x[i] < '0' || x[i] > '9') {
             checkPossibility = false;
             break;
         }
@@ -70,8 +74,10 @@ std::string generateRightSubstring(const std::string& x, const int& place) {
 }
 
 bool isNumber(std::string& x) {
-    for (char i : x) {
-        if(i < '0' || i > '9') {
+    for (size_t i = 0; i < x.size(); ++i) {
+        if (i == 0 && x[i] == '-') {
+            continue;
+        } else if (x[i] < '0' || x[i] > '9') {
             return false;
         }
     }
@@ -82,19 +88,29 @@ Node* buildExpressionTree(std::string& x) {
     Node* node = new Node;
     int count = 0;
     if (isNumber(x)) {
-        for (size_t i = 0; i < x.size(); ++i) {
-            node->str[i] = x[i];
+        if (x[0] == '-') {
+            for (size_t i = 1; i < x.size(); ++i) {
+                node->str[i - 1] = x[i];
+            }
+            node->left = nullptr;
+            node->right = nullptr;
+            node->order = x.size() - 1;
+            node->isNegative = true;
+        } else {
+            for (size_t i = 0; i < x.size(); ++i) {
+                node->str[i] = x[i];
+            }
+            node->left = nullptr;
+            node->right = nullptr;
             node->order = x.size();
         }
-        node->left = nullptr;
-        node->right = nullptr;
     } else {
         for (size_t i = 0; i < x.size(); ++i) {
             if (x[i] == '(') {
                 count += 1;
             } else if (x[i] == ')') {
                 count -= 1;
-            } else if (x[i] < '0' || x[i] > '9') {
+            } else if (i != 0 && x[i] < '0' || x[i] > '9') {
                 if (count == 0) {
                     node->str[0] = x[i];
                     std::string leftString = generateLeftSubstring(x, i);
@@ -109,18 +125,21 @@ Node* buildExpressionTree(std::string& x) {
     return node;
 }
 
-int convertArrayToInt(const char* x, const int& order) {
+int convertArrayToInt(Node* root) {
     int res = 0, cur = 1;
-    for (int i = order - 1; i >= 0; --i) {
-        res += cur * (x[i] - '0');
+    for (int i = root->order - 1; i >= 0; --i) {
+        res += cur * (root->str[i] - '0');
         cur *= 10;
+    }
+    if (root->isNegative) {
+        res *= -1;
     }
     return res;
 }
 
 int calculation(Node* root) {
     if (root->left == nullptr && root->right == nullptr) {
-        return convertArrayToInt(root->str, root->order);
+        return convertArrayToInt(root);
     } else {
         switch (root->str[0]) {
             case '+':

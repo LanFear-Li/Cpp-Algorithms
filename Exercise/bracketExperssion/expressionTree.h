@@ -16,6 +16,7 @@
 
 typedef struct node {
     int order = 0;
+    bool isNegative = false;
     char* str = new char;
     node* left = nullptr;
     node* right = nullptr;
