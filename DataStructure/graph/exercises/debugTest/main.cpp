@@ -1,12 +1,8 @@
 #include "iostream"
 using  namespace std;
 int main() {
-    string x = "2*(1+2)";
-    string str;
-    int place = 1;
-    str = x.substr(0, place);
-    str = str.substr(1);
-    str = str.substr(0, place - 2);
-    cout << str << endl;
+    string x = "12345";
+    x = x.insert(2, "x");
+    cout << x;
     return 0;
 }

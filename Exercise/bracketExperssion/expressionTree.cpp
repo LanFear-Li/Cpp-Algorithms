@@ -4,26 +4,42 @@
 
 #include "expressionTree.h"
 
-bool checkLegality(const std::string &x) {
-    int check = 0;
-    for (auto i : x) {
-        if (i == '(') {
-            check += 1;
-        } else if (i == ')') {
-            check -= 1;
-        }
-        if (check < 0) {
-            return false;
-        }
-    }
-    return check == 0;
-}
+//bool checkLegality(const std::string &x) {
+//    int check = 0;
+//    for (auto i : x) {
+//        if (i == '(') {
+//            check += 1;
+//        } else if (i == ')') {
+//            check -= 1;
+//        }
+//        if (check < 0) {
+//            return false;
+//        }
+//    }
+//    return check == 0;
+//}
+
+//std::string modifyExpression(std::string x) {
+//    std::string str = x;
+//    for (int i = 1; i < str.size(); ++i) {
+//        if (x[i] == '-' && (x[i - 1] < '0' || x[i - 1] > '9')) {
+//            str = str.insert(i, "0");
+//        }
+//    }
+//    return str;
+//}
 
 std::string generateLeftSubstring(const std::string& x, const int& place) {
     std::string str;
-
-    if (x.size() == 3 || place == 1) {
-        str = x.substr(0, 1);
+    bool checkPossibility = true;
+    for (size_t i = 0; i < place; ++i) {
+        if (x[i] < '0' || x[i] > '9') {
+            checkPossibility = false;
+            break;
+        }
+    }
+    if (checkPossibility) {
+        str = x.substr(0, place);
         return str;
     } else {
         str = x.substr(0, place);
@@ -35,8 +51,14 @@ std::string generateLeftSubstring(const std::string& x, const int& place) {
 
 std::string generateRightSubstring(const std::string& x, const int& place) {
     std::string str;
-
-    if (x.size() == 3 || place + 2 == x.size()) {
+    bool checkPossibility = true;
+    for (size_t i = place + 1; i < x.size(); ++i) {
+        if (x[i] < '0' || x[i] > '9') {
+            checkPossibility = false;
+            break;
+        }
+    }
+    if (checkPossibility) {
         str = x.substr(place + 1);
         return str;
     } else {
@@ -47,11 +69,23 @@ std::string generateRightSubstring(const std::string& x, const int& place) {
     }
 }
 
-Node* buildExpressionTree(std::string &x) {
+bool isNumber(std::string& x) {
+    for (char i : x) {
+        if(i < '0' || i > '9') {
+            return false;
+        }
+    }
+    return true;
+}
+
+Node* buildExpressionTree(std::string& x) {
     Node* node = new Node;
     int count = 0;
-    if (x.size() == 1) {
-        node->str = x[0];
+    if (isNumber(x)) {
+        for (size_t i = 0; i < x.size(); ++i) {
+            node->str[i] = x[i];
+            node->order = x.size();
+        }
         node->left = nullptr;
         node->right = nullptr;
     } else {
@@ -62,7 +96,7 @@ Node* buildExpressionTree(std::string &x) {
                 count -= 1;
             } else if (x[i] < '0' || x[i] > '9') {
                 if (count == 0) {
-                    node->str = x[i];
+                    node->str[0] = x[i];
                     std::string leftString = generateLeftSubstring(x, i);
                     std::string rightString = generateRightSubstring(x, i);
                     node->left = buildExpressionTree(leftString);
@@ -75,11 +109,20 @@ Node* buildExpressionTree(std::string &x) {
     return node;
 }
 
+int convertArrayToInt(const char* x, const int& order) {
+    int res = 0, cur = 1;
+    for (int i = order - 1; i >= 0; --i) {
+        res += cur * (x[i] - '0');
+        cur *= 10;
+    }
+    return res;
+}
+
 int calculation(Node* root) {
     if (root->left == nullptr && root->right == nullptr) {
-        return root->str - '0';
+        return convertArrayToInt(root->str, root->order);
     } else {
-        switch (root->str) {
+        switch (root->str[0]) {
             case '+':
                 return calculation(root->left) + calculation(root->right);
             case '-':

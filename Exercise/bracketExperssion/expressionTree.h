@@ -15,7 +15,8 @@
 #include "iomanip"
 
 typedef struct node {
-    char str = '0';
+    int order = 0;
+    char* str = new char;
     node* left = nullptr;
     node* right = nullptr;
 } Node;
@@ -25,6 +26,8 @@ typedef struct tree {
 } Tree;
 
 bool checkLegality(const std::string &x);
+
+//std::string modifyExpression(std::string x);
 
 Node* buildExpressionTree(std::string &x);
 

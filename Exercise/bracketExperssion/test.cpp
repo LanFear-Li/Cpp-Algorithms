@@ -5,7 +5,6 @@ int main() {
     std::cout << "please input a legal bracket expression: " << std::endl;
     std::string str;
     std::cin >> str;
-
     Node* root = buildExpressionTree(str);
     int res = calculation(root);
     std::cout << "the result is: " << res << std::endl;
