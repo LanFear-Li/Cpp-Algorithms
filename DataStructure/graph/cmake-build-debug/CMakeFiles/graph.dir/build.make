@@ -76,77 +76,92 @@ include CMakeFiles/graph.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/graph.dir/flags.make
 
-CMakeFiles/graph.dir/graph.cpp.obj: CMakeFiles/graph.dir/flags.make
-CMakeFiles/graph.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph.dir/graph.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\graph.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp
+CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj: ../N2_Basic/topolpgicalSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N2_Basic\topolpgicalSort.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\topolpgicalSort.cpp
 
-CMakeFiles/graph.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/graph.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp > CMakeFiles\graph.dir\graph.cpp.i
+CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\topolpgicalSort.cpp > CMakeFiles\graph.dir\N2_Basic\topolpgicalSort.cpp.i
 
-CMakeFiles/graph.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/graph.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\graph.cpp -o CMakeFiles\graph.dir\graph.cpp.s
+CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\topolpgicalSort.cpp -o CMakeFiles\graph.dir\N2_Basic\topolpgicalSort.cpp.s
 
-CMakeFiles/graph.dir/tarjan.cpp.obj: CMakeFiles/graph.dir/flags.make
-CMakeFiles/graph.dir/tarjan.cpp.obj: ../tarjan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph.dir/tarjan.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\tarjan.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp
+CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj: ../N2_Basic/tarjan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N2_Basic\tarjan.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\tarjan.cpp
 
-CMakeFiles/graph.dir/tarjan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/tarjan.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp > CMakeFiles\graph.dir\tarjan.cpp.i
+CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\tarjan.cpp > CMakeFiles\graph.dir\N2_Basic\tarjan.cpp.i
 
-CMakeFiles/graph.dir/tarjan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/tarjan.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\tarjan.cpp -o CMakeFiles\graph.dir\tarjan.cpp.s
+CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\tarjan.cpp -o CMakeFiles\graph.dir\N2_Basic\tarjan.cpp.s
 
-CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj: CMakeFiles/graph.dir/flags.make
-CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj: ../exercises/USACO08DEC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\exercises\USACO08DEC.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\exercises\USACO08DEC.cpp
+CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj: ../N2_Basic/kosaraju.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N2_Basic\kosaraju.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\kosaraju.cpp
 
-CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\exercises\USACO08DEC.cpp > CMakeFiles\graph.dir\exercises\USACO08DEC.cpp.i
+CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\kosaraju.cpp > CMakeFiles\graph.dir\N2_Basic\kosaraju.cpp.i
 
-CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\exercises\USACO08DEC.cpp -o CMakeFiles\graph.dir\exercises\USACO08DEC.cpp.s
+CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\kosaraju.cpp -o CMakeFiles\graph.dir\N2_Basic\kosaraju.cpp.s
 
-CMakeFiles/graph.dir/kosaraju.cpp.obj: CMakeFiles/graph.dir/flags.make
-CMakeFiles/graph.dir/kosaraju.cpp.obj: ../kosaraju.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graph.dir/kosaraju.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\kosaraju.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\kosaraju.cpp
+CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj: ../N3_MinimumSpanningTree/kruskal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N3_MinimumSpanningTree\kruskal.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N3_MinimumSpanningTree\kruskal.cpp
 
-CMakeFiles/graph.dir/kosaraju.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/kosaraju.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\kosaraju.cpp > CMakeFiles\graph.dir\kosaraju.cpp.i
+CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N3_MinimumSpanningTree\kruskal.cpp > CMakeFiles\graph.dir\N3_MinimumSpanningTree\kruskal.cpp.i
 
-CMakeFiles/graph.dir/kosaraju.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/kosaraju.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\kosaraju.cpp -o CMakeFiles\graph.dir\kosaraju.cpp.s
+CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N3_MinimumSpanningTree\kruskal.cpp -o CMakeFiles\graph.dir\N3_MinimumSpanningTree\kruskal.cpp.s
+
+CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj: ../N1_Exercises/P3366.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N1_Exercises\P3366.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N1_Exercises\P3366.cpp
+
+CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N1_Exercises\P3366.cpp > CMakeFiles\graph.dir\N1_Exercises\P3366.cpp.i
+
+CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N1_Exercises\P3366.cpp -o CMakeFiles\graph.dir\N1_Exercises\P3366.cpp.s
 
 # Object files for target graph
 graph_OBJECTS = \
-"CMakeFiles/graph.dir/graph.cpp.obj" \
-"CMakeFiles/graph.dir/tarjan.cpp.obj" \
-"CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj" \
-"CMakeFiles/graph.dir/kosaraju.cpp.obj"
+"CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj" \
+"CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj" \
+"CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj" \
+"CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj" \
+"CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
 
 # External object files for target graph
 graph_EXTERNAL_OBJECTS =
 
-graph.exe: CMakeFiles/graph.dir/graph.cpp.obj
-graph.exe: CMakeFiles/graph.dir/tarjan.cpp.obj
-graph.exe: CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj
-graph.exe: CMakeFiles/graph.dir/kosaraju.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj
 graph.exe: CMakeFiles/graph.dir/build.make
 graph.exe: CMakeFiles/graph.dir/linklibs.rsp
 graph.exe: CMakeFiles/graph.dir/objects1.rsp
 graph.exe: CMakeFiles/graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable graph.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable graph.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graph.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

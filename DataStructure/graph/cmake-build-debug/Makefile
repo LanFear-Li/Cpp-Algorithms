@@ -142,113 +142,140 @@ graph/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/build
 .PHONY : graph/fast
 
-exercises/USACO08DEC.obj: exercises/USACO08DEC.cpp.obj
+N1_Exercises/P3366.obj: N1_Exercises/P3366.cpp.obj
 
-.PHONY : exercises/USACO08DEC.obj
-
-# target to build an object file
-exercises/USACO08DEC.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj
-.PHONY : exercises/USACO08DEC.cpp.obj
-
-exercises/USACO08DEC.i: exercises/USACO08DEC.cpp.i
-
-.PHONY : exercises/USACO08DEC.i
-
-# target to preprocess a source file
-exercises/USACO08DEC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.i
-.PHONY : exercises/USACO08DEC.cpp.i
-
-exercises/USACO08DEC.s: exercises/USACO08DEC.cpp.s
-
-.PHONY : exercises/USACO08DEC.s
-
-# target to generate assembly for a file
-exercises/USACO08DEC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.s
-.PHONY : exercises/USACO08DEC.cpp.s
-
-graph.obj: graph.cpp.obj
-
-.PHONY : graph.obj
+.PHONY : N1_Exercises/P3366.obj
 
 # target to build an object file
-graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/graph.cpp.obj
-.PHONY : graph.cpp.obj
+N1_Exercises/P3366.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj
+.PHONY : N1_Exercises/P3366.cpp.obj
 
-graph.i: graph.cpp.i
+N1_Exercises/P3366.i: N1_Exercises/P3366.cpp.i
 
-.PHONY : graph.i
+.PHONY : N1_Exercises/P3366.i
 
 # target to preprocess a source file
-graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/graph.cpp.i
-.PHONY : graph.cpp.i
+N1_Exercises/P3366.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.i
+.PHONY : N1_Exercises/P3366.cpp.i
 
-graph.s: graph.cpp.s
+N1_Exercises/P3366.s: N1_Exercises/P3366.cpp.s
 
-.PHONY : graph.s
+.PHONY : N1_Exercises/P3366.s
 
 # target to generate assembly for a file
-graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/graph.cpp.s
-.PHONY : graph.cpp.s
+N1_Exercises/P3366.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.s
+.PHONY : N1_Exercises/P3366.cpp.s
 
-kosaraju.obj: kosaraju.cpp.obj
+N2_Basic/kosaraju.obj: N2_Basic/kosaraju.cpp.obj
 
-.PHONY : kosaraju.obj
+.PHONY : N2_Basic/kosaraju.obj
 
 # target to build an object file
-kosaraju.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.obj
-.PHONY : kosaraju.cpp.obj
+N2_Basic/kosaraju.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj
+.PHONY : N2_Basic/kosaraju.cpp.obj
 
-kosaraju.i: kosaraju.cpp.i
+N2_Basic/kosaraju.i: N2_Basic/kosaraju.cpp.i
 
-.PHONY : kosaraju.i
+.PHONY : N2_Basic/kosaraju.i
 
 # target to preprocess a source file
-kosaraju.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.i
-.PHONY : kosaraju.cpp.i
+N2_Basic/kosaraju.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.i
+.PHONY : N2_Basic/kosaraju.cpp.i
 
-kosaraju.s: kosaraju.cpp.s
+N2_Basic/kosaraju.s: N2_Basic/kosaraju.cpp.s
 
-.PHONY : kosaraju.s
+.PHONY : N2_Basic/kosaraju.s
 
 # target to generate assembly for a file
-kosaraju.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.s
-.PHONY : kosaraju.cpp.s
+N2_Basic/kosaraju.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.s
+.PHONY : N2_Basic/kosaraju.cpp.s
 
-tarjan.obj: tarjan.cpp.obj
+N2_Basic/tarjan.obj: N2_Basic/tarjan.cpp.obj
 
-.PHONY : tarjan.obj
+.PHONY : N2_Basic/tarjan.obj
 
 # target to build an object file
-tarjan.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/tarjan.cpp.obj
-.PHONY : tarjan.cpp.obj
+N2_Basic/tarjan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj
+.PHONY : N2_Basic/tarjan.cpp.obj
 
-tarjan.i: tarjan.cpp.i
+N2_Basic/tarjan.i: N2_Basic/tarjan.cpp.i
 
-.PHONY : tarjan.i
+.PHONY : N2_Basic/tarjan.i
 
 # target to preprocess a source file
-tarjan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/tarjan.cpp.i
-.PHONY : tarjan.cpp.i
+N2_Basic/tarjan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.i
+.PHONY : N2_Basic/tarjan.cpp.i
 
-tarjan.s: tarjan.cpp.s
+N2_Basic/tarjan.s: N2_Basic/tarjan.cpp.s
 
-.PHONY : tarjan.s
+.PHONY : N2_Basic/tarjan.s
 
 # target to generate assembly for a file
-tarjan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/tarjan.cpp.s
-.PHONY : tarjan.cpp.s
+N2_Basic/tarjan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.s
+.PHONY : N2_Basic/tarjan.cpp.s
+
+N2_Basic/topolpgicalSort.obj: N2_Basic/topolpgicalSort.cpp.obj
+
+.PHONY : N2_Basic/topolpgicalSort.obj
+
+# target to build an object file
+N2_Basic/topolpgicalSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj
+.PHONY : N2_Basic/topolpgicalSort.cpp.obj
+
+N2_Basic/topolpgicalSort.i: N2_Basic/topolpgicalSort.cpp.i
+
+.PHONY : N2_Basic/topolpgicalSort.i
+
+# target to preprocess a source file
+N2_Basic/topolpgicalSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.i
+.PHONY : N2_Basic/topolpgicalSort.cpp.i
+
+N2_Basic/topolpgicalSort.s: N2_Basic/topolpgicalSort.cpp.s
+
+.PHONY : N2_Basic/topolpgicalSort.s
+
+# target to generate assembly for a file
+N2_Basic/topolpgicalSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.s
+.PHONY : N2_Basic/topolpgicalSort.cpp.s
+
+N3_MinimumSpanningTree/kruskal.obj: N3_MinimumSpanningTree/kruskal.cpp.obj
+
+.PHONY : N3_MinimumSpanningTree/kruskal.obj
+
+# target to build an object file
+N3_MinimumSpanningTree/kruskal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj
+.PHONY : N3_MinimumSpanningTree/kruskal.cpp.obj
+
+N3_MinimumSpanningTree/kruskal.i: N3_MinimumSpanningTree/kruskal.cpp.i
+
+.PHONY : N3_MinimumSpanningTree/kruskal.i
+
+# target to preprocess a source file
+N3_MinimumSpanningTree/kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.i
+.PHONY : N3_MinimumSpanningTree/kruskal.cpp.i
+
+N3_MinimumSpanningTree/kruskal.s: N3_MinimumSpanningTree/kruskal.cpp.s
+
+.PHONY : N3_MinimumSpanningTree/kruskal.s
+
+# target to generate assembly for a file
+N3_MinimumSpanningTree/kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.s
+.PHONY : N3_MinimumSpanningTree/kruskal.cpp.s
 
 # Help Target
 help:
@@ -259,18 +286,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... graph
-	@echo ... exercises/USACO08DEC.obj
-	@echo ... exercises/USACO08DEC.i
-	@echo ... exercises/USACO08DEC.s
-	@echo ... graph.obj
-	@echo ... graph.i
-	@echo ... graph.s
-	@echo ... kosaraju.obj
-	@echo ... kosaraju.i
-	@echo ... kosaraju.s
-	@echo ... tarjan.obj
-	@echo ... tarjan.i
-	@echo ... tarjan.s
+	@echo ... N1_Exercises/P3366.obj
+	@echo ... N1_Exercises/P3366.i
+	@echo ... N1_Exercises/P3366.s
+	@echo ... N2_Basic/kosaraju.obj
+	@echo ... N2_Basic/kosaraju.i
+	@echo ... N2_Basic/kosaraju.s
+	@echo ... N2_Basic/tarjan.obj
+	@echo ... N2_Basic/tarjan.i
+	@echo ... N2_Basic/tarjan.s
+	@echo ... N2_Basic/topolpgicalSort.obj
+	@echo ... N2_Basic/topolpgicalSort.i
+	@echo ... N2_Basic/topolpgicalSort.s
+	@echo ... N3_MinimumSpanningTree/kruskal.obj
+	@echo ... N3_MinimumSpanningTree/kruskal.i
+	@echo ... N3_MinimumSpanningTree/kruskal.s
 .PHONY : help
 
 

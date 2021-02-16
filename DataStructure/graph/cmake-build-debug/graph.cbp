@@ -80,16 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/USACO08DEC.cpp">
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/P3366.cpp">
 			<Option target="graph"/>
 		</Unit>
-		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp">
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/kosaraju.cpp">
 			<Option target="graph"/>
 		</Unit>
-		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/kosaraju.cpp">
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/tarjan.cpp">
 			<Option target="graph"/>
 		</Unit>
-		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/tarjan.cpp">
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/topolpgicalSort.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp">
 			<Option target="graph"/>
 		</Unit>
 		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/CMakeLists.txt">

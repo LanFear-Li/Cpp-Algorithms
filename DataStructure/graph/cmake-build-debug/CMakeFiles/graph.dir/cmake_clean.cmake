@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj"
-  "CMakeFiles/graph.dir/graph.cpp.obj"
-  "CMakeFiles/graph.dir/kosaraju.cpp.obj"
-  "CMakeFiles/graph.dir/tarjan.cpp.obj"
+  "CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
+  "CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj"
+  "CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
+  "CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
+  "CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
   "graph.exe"
   "graph.exe.manifest"
   "graph.pdb"

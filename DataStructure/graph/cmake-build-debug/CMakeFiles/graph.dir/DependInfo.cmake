@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/USACO08DEC.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj"
-  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/graph.cpp.obj"
-  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/kosaraju.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/kosaraju.cpp.obj"
-  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/tarjan.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/tarjan.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/P3366.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/kosaraju.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/tarjan.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/topolpgicalSort.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
