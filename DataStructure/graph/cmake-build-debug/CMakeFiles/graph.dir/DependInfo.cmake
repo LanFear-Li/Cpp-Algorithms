@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/USACO08DEC.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj"
   "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/graph.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/kosaraju.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/kosaraju.cpp.obj"
   "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/tarjan.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/tarjan.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

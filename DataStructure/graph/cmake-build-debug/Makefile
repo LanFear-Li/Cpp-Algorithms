@@ -142,6 +142,33 @@ graph/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/build
 .PHONY : graph/fast
 
+exercises/USACO08DEC.obj: exercises/USACO08DEC.cpp.obj
+
+.PHONY : exercises/USACO08DEC.obj
+
+# target to build an object file
+exercises/USACO08DEC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj
+.PHONY : exercises/USACO08DEC.cpp.obj
+
+exercises/USACO08DEC.i: exercises/USACO08DEC.cpp.i
+
+.PHONY : exercises/USACO08DEC.i
+
+# target to preprocess a source file
+exercises/USACO08DEC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.i
+.PHONY : exercises/USACO08DEC.cpp.i
+
+exercises/USACO08DEC.s: exercises/USACO08DEC.cpp.s
+
+.PHONY : exercises/USACO08DEC.s
+
+# target to generate assembly for a file
+exercises/USACO08DEC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.s
+.PHONY : exercises/USACO08DEC.cpp.s
+
 graph.obj: graph.cpp.obj
 
 .PHONY : graph.obj
@@ -168,6 +195,33 @@ graph.s: graph.cpp.s
 graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/graph.cpp.s
 .PHONY : graph.cpp.s
+
+kosaraju.obj: kosaraju.cpp.obj
+
+.PHONY : kosaraju.obj
+
+# target to build an object file
+kosaraju.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.obj
+.PHONY : kosaraju.cpp.obj
+
+kosaraju.i: kosaraju.cpp.i
+
+.PHONY : kosaraju.i
+
+# target to preprocess a source file
+kosaraju.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.i
+.PHONY : kosaraju.cpp.i
+
+kosaraju.s: kosaraju.cpp.s
+
+.PHONY : kosaraju.s
+
+# target to generate assembly for a file
+kosaraju.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/kosaraju.cpp.s
+.PHONY : kosaraju.cpp.s
 
 tarjan.obj: tarjan.cpp.obj
 
@@ -205,9 +259,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... graph
+	@echo ... exercises/USACO08DEC.obj
+	@echo ... exercises/USACO08DEC.i
+	@echo ... exercises/USACO08DEC.s
 	@echo ... graph.obj
 	@echo ... graph.i
 	@echo ... graph.s
+	@echo ... kosaraju.obj
+	@echo ... kosaraju.i
+	@echo ... kosaraju.s
 	@echo ... tarjan.obj
 	@echo ... tarjan.i
 	@echo ... tarjan.s

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/graph.dir/exercises/USACO08DEC.cpp.obj"
   "CMakeFiles/graph.dir/graph.cpp.obj"
+  "CMakeFiles/graph.dir/kosaraju.cpp.obj"
   "CMakeFiles/graph.dir/tarjan.cpp.obj"
   "graph.exe"
   "graph.exe.manifest"

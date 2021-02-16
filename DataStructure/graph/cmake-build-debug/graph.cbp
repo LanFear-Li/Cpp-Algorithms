@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/exercises/USACO08DEC.cpp">
+			<Option target="graph"/>
+		</Unit>
 		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/graph.cpp">
+			<Option target="graph"/>
+		</Unit>
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/kosaraju.cpp">
 			<Option target="graph"/>
 		</Unit>
 		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/tarjan.cpp">
