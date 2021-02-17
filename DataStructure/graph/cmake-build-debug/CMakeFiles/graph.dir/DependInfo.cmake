@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/tarjan.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
   "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/topolpgicalSort.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
   "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/prim.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

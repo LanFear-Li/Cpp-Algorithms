@@ -277,6 +277,33 @@ N3_MinimumSpanningTree/kruskal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.s
 .PHONY : N3_MinimumSpanningTree/kruskal.cpp.s
 
+N3_MinimumSpanningTree/prim.obj: N3_MinimumSpanningTree/prim.cpp.obj
+
+.PHONY : N3_MinimumSpanningTree/prim.obj
+
+# target to build an object file
+N3_MinimumSpanningTree/prim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj
+.PHONY : N3_MinimumSpanningTree/prim.cpp.obj
+
+N3_MinimumSpanningTree/prim.i: N3_MinimumSpanningTree/prim.cpp.i
+
+.PHONY : N3_MinimumSpanningTree/prim.i
+
+# target to preprocess a source file
+N3_MinimumSpanningTree/prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.i
+.PHONY : N3_MinimumSpanningTree/prim.cpp.i
+
+N3_MinimumSpanningTree/prim.s: N3_MinimumSpanningTree/prim.cpp.s
+
+.PHONY : N3_MinimumSpanningTree/prim.s
+
+# target to generate assembly for a file
+N3_MinimumSpanningTree/prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.s
+.PHONY : N3_MinimumSpanningTree/prim.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +328,9 @@ help:
 	@echo ... N3_MinimumSpanningTree/kruskal.obj
 	@echo ... N3_MinimumSpanningTree/kruskal.i
 	@echo ... N3_MinimumSpanningTree/kruskal.s
+	@echo ... N3_MinimumSpanningTree/prim.obj
+	@echo ... N3_MinimumSpanningTree/prim.i
+	@echo ... N3_MinimumSpanningTree/prim.s
 .PHONY : help
 
 

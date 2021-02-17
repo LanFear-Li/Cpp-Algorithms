@@ -95,6 +95,9 @@
 		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp">
 			<Option target="graph"/>
 		</Unit>
+		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/prim.cpp">
+			<Option target="graph"/>
+		</Unit>
 		<Unit filename="E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

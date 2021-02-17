@@ -8,4 +8,7 @@ add_executable(
         N2_Basic/topolpgicalSort.cpp
         N2_Basic/tarjan.cpp
         N2_Basic/kosaraju.cpp
-        N3_MinimumSpanningTree/kruskal.cpp N1_Exercises/P3366.cpp)
+        N3_MinimumSpanningTree/kruskal.cpp
+        N1_Exercises/P3366.cpp
+        N3_MinimumSpanningTree/prim.cpp
+)
