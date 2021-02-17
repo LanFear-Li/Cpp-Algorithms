@@ -1,3 +1,3 @@
-"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\debugTest.dir/objects.a
-C:\mingw64\bin\ar.exe cr CMakeFiles\debugTest.dir/objects.a @CMakeFiles\debugTest.dir\objects1.rsp
-C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\debugTest.dir/objects.a -Wl,--no-whole-archive  -o debugTest.exe -Wl,--out-implib,libdebugTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\debugTest.dir\linklibs.rsp
+"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\debugTest.dir/objects.a
+D:\IDE\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\debugTest.dir/objects.a @CMakeFiles\debugTest.dir\objects1.rsp
+D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\debugTest.dir/objects.a -Wl,--no-whole-archive  -o debugTest.exe -Wl,--out-implib,libdebugTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\debugTest.dir\linklibs.rsp

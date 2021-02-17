@@ -6,7 +6,8 @@
 #include "algorithm"
 #include "cstring"
 using namespace std;
-const int N = 1e4;
+const int N = 1e5 + 100;
+const int INF = 0xfffffff;
 
 // 1. plain dijkstra algorithm with adjacent matrix
 int graph[N][N];
@@ -15,15 +16,14 @@ bool vis[N];
 int vertices, edges;
 
 void dijkstra() {
-    memset(dist, 0x3f, sizeof dist);
-    memset(vis, 0, sizeof vis);
+    memset(dist, INF, sizeof dist);
     dist[1] = 0;
     for (size_t i = 1; i < vertices; ++i) {
 
         // find the minimum dist vertex
-        int x = 0;
+        int x = 1;
         for (size_t j = 1; j <= vertices; ++j) {
-            if (!vis[j] && (x == 0 || dist[j] < dist[x])) {
+            if (!vis[j] && dist[j] < dist[x]) {
                 x = j;
             }
         }
@@ -41,7 +41,7 @@ int main() {
     cin >> vertices >> edges;
 
     // initialization
-    memset(graph, 0x3f, sizeof graph);
+    memset(graph, INF, sizeof graph);
     for (size_t i = 1; i <= vertices; ++i) {
         graph[i][i] = 0;
     }
@@ -55,13 +55,3 @@ int main() {
     }
     return 0;
 }
-
-/* test case
-4 6
-1 2 2
-2 3 2
-2 4 1
-1 3 5
-3 4 3
-1 4 4
-*/

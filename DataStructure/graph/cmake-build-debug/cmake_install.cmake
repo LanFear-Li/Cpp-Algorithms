@@ -1,4 +1,4 @@
-# Install script for directory: E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph
+# Install script for directory: D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

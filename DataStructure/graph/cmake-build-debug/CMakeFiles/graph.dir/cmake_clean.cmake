@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
   "CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
   "CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj"
+  "CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj"
   "graph.exe"
   "graph.exe.manifest"
   "graph.pdb"

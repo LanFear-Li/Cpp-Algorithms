@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph
+CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmak
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Files\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -304,6 +304,33 @@ N3_MinimumSpanningTree/prim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.s
 .PHONY : N3_MinimumSpanningTree/prim.cpp.s
 
+N4_ShortestPaths/dijkstra.obj: N4_ShortestPaths/dijkstra.cpp.obj
+
+.PHONY : N4_ShortestPaths/dijkstra.obj
+
+# target to build an object file
+N4_ShortestPaths/dijkstra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj
+.PHONY : N4_ShortestPaths/dijkstra.cpp.obj
+
+N4_ShortestPaths/dijkstra.i: N4_ShortestPaths/dijkstra.cpp.i
+
+.PHONY : N4_ShortestPaths/dijkstra.i
+
+# target to preprocess a source file
+N4_ShortestPaths/dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.i
+.PHONY : N4_ShortestPaths/dijkstra.cpp.i
+
+N4_ShortestPaths/dijkstra.s: N4_ShortestPaths/dijkstra.cpp.s
+
+.PHONY : N4_ShortestPaths/dijkstra.s
+
+# target to generate assembly for a file
+N4_ShortestPaths/dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.s
+.PHONY : N4_ShortestPaths/dijkstra.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -331,6 +358,9 @@ help:
 	@echo ... N3_MinimumSpanningTree/prim.obj
 	@echo ... N3_MinimumSpanningTree/prim.i
 	@echo ... N3_MinimumSpanningTree/prim.s
+	@echo ... N4_ShortestPaths/dijkstra.obj
+	@echo ... N4_ShortestPaths/dijkstra.i
+	@echo ... N4_ShortestPaths/dijkstra.s
 .PHONY : help
 
 
