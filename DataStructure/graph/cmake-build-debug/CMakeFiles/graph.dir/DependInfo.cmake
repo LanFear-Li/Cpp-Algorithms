@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/P3366.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/kosaraju.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/tarjan.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/topolpgicalSort.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/prim.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N4_ShortestPaths/dijkstra.cpp" "D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/P3366.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/kosaraju.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/kosaraju.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/storage.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/storage.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/tarjan.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/tarjan.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N2_Basic/topolpgicalSort.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/kruskal.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/kruskal.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N3_MinimumSpanningTree/prim.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj"
+  "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N4_ShortestPaths/dijkstra.cpp" "E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/cmake-build-debug/CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

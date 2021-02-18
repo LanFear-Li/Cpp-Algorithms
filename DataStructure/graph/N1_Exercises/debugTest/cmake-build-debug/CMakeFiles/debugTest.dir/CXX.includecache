@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/main.cpp
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/main.cpp
 iostream
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/iostream
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/iostream
 algorithm
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/algorithm
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/algorithm
 cstring
-D:/Files/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/cstring
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/cstring
+queue
+E:/codeStorage/MyRepo/Cpp-Algorithms/DataStructure/graph/N1_Exercises/debugTest/queue
 
