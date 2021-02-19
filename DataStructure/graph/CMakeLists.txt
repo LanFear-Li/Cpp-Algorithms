@@ -11,4 +11,4 @@ add_executable(
         N3_MinimumSpanningTree/kruskal.cpp
         N1_Exercises/P3366.cpp
         N3_MinimumSpanningTree/prim.cpp
-        N4_ShortestPaths/dijkstra.cpp N2_Basic/storage.cpp)
+        N4_ShortestPaths/dijkstra.cpp N2_Basic/storage.cpp N4_ShortestPaths/bellmanFord.cpp N4_ShortestPaths/floyd.cpp)

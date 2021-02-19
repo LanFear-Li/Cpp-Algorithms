@@ -56,7 +56,7 @@ int main() {
     return 0;
 }
 
-// 2. heap optimized dijkstra algorithm with priority queue
+// 2. q optimized dijkstra algorithm with priority queue
 typedef pair<int, int> PII;
 
 int head[N], ver[N], edge[N], Next[N];
@@ -75,12 +75,12 @@ void dijkstra() {
     memset(dist, 0x3f, sizeof dist);
     memset(vis, 0, sizeof vis);
     dist[1] = 0;
-    priority_queue<PII, vector<PII>, greater<PII>> heap;
-    heap.push({0, 1});
+    priority_queue<PII, vector<PII>, greater<PII>> q;
+    q.push({0, 1});
 
-    while (!heap.empty()) {
-        int x = heap.top().second;
-        heap.pop();
+    while (!q.empty()) {
+        int x = q.top().second;
+        q.pop();
         if (vis[x]) {
             continue;
         } else {
@@ -89,7 +89,7 @@ void dijkstra() {
                 int y = ver[i], z = edge[i];
                 if (dist[y] > dist[x] + z) {
                     dist[y] = dist[x] + z;
-                    heap.push({dist[y], y});
+                    q.push({dist[y], y});
                 }
             }
         }

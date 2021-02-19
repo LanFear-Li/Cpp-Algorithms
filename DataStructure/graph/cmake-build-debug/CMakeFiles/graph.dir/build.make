@@ -180,6 +180,32 @@ CMakeFiles/graph.dir/N2_Basic/storage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N2_Basic/storage.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N2_Basic\storage.cpp -o CMakeFiles\graph.dir\N2_Basic\storage.cpp.s
 
+CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj: ../N4_ShortestPaths/bellmanFord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N4_ShortestPaths\bellmanFord.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\bellmanFord.cpp
+
+CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\bellmanFord.cpp > CMakeFiles\graph.dir\N4_ShortestPaths\bellmanFord.cpp.i
+
+CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\bellmanFord.cpp -o CMakeFiles\graph.dir\N4_ShortestPaths\bellmanFord.cpp.s
+
+CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj: CMakeFiles/graph.dir/flags.make
+CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj: ../N4_ShortestPaths/floyd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graph.dir\N4_ShortestPaths\floyd.cpp.obj -c E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\floyd.cpp
+
+CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\floyd.cpp > CMakeFiles\graph.dir\N4_ShortestPaths\floyd.cpp.i
+
+CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\N4_ShortestPaths\floyd.cpp -o CMakeFiles\graph.dir\N4_ShortestPaths\floyd.cpp.s
+
 # Object files for target graph
 graph_OBJECTS = \
 "CMakeFiles/graph.dir/N2_Basic/topolpgicalSort.cpp.obj" \
@@ -189,7 +215,9 @@ graph_OBJECTS = \
 "CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj" \
 "CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj" \
 "CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj" \
-"CMakeFiles/graph.dir/N2_Basic/storage.cpp.obj"
+"CMakeFiles/graph.dir/N2_Basic/storage.cpp.obj" \
+"CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj" \
+"CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj"
 
 # External object files for target graph
 graph_EXTERNAL_OBJECTS =
@@ -202,11 +230,13 @@ graph.exe: CMakeFiles/graph.dir/N1_Exercises/P3366.cpp.obj
 graph.exe: CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.obj
 graph.exe: CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.obj
 graph.exe: CMakeFiles/graph.dir/N2_Basic/storage.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj
+graph.exe: CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj
 graph.exe: CMakeFiles/graph.dir/build.make
 graph.exe: CMakeFiles/graph.dir/linklibs.rsp
 graph.exe: CMakeFiles/graph.dir/objects1.rsp
 graph.exe: CMakeFiles/graph.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable graph.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\codeStorage\MyRepo\Cpp-Algorithms\DataStructure\graph\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable graph.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graph.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -331,6 +331,33 @@ N3_MinimumSpanningTree/prim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N3_MinimumSpanningTree/prim.cpp.s
 .PHONY : N3_MinimumSpanningTree/prim.cpp.s
 
+N4_ShortestPaths/bellmanFord.obj: N4_ShortestPaths/bellmanFord.cpp.obj
+
+.PHONY : N4_ShortestPaths/bellmanFord.obj
+
+# target to build an object file
+N4_ShortestPaths/bellmanFord.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.obj
+.PHONY : N4_ShortestPaths/bellmanFord.cpp.obj
+
+N4_ShortestPaths/bellmanFord.i: N4_ShortestPaths/bellmanFord.cpp.i
+
+.PHONY : N4_ShortestPaths/bellmanFord.i
+
+# target to preprocess a source file
+N4_ShortestPaths/bellmanFord.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.i
+.PHONY : N4_ShortestPaths/bellmanFord.cpp.i
+
+N4_ShortestPaths/bellmanFord.s: N4_ShortestPaths/bellmanFord.cpp.s
+
+.PHONY : N4_ShortestPaths/bellmanFord.s
+
+# target to generate assembly for a file
+N4_ShortestPaths/bellmanFord.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/bellmanFord.cpp.s
+.PHONY : N4_ShortestPaths/bellmanFord.cpp.s
+
 N4_ShortestPaths/dijkstra.obj: N4_ShortestPaths/dijkstra.cpp.obj
 
 .PHONY : N4_ShortestPaths/dijkstra.obj
@@ -357,6 +384,33 @@ N4_ShortestPaths/dijkstra.s: N4_ShortestPaths/dijkstra.cpp.s
 N4_ShortestPaths/dijkstra.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/dijkstra.cpp.s
 .PHONY : N4_ShortestPaths/dijkstra.cpp.s
+
+N4_ShortestPaths/floyd.obj: N4_ShortestPaths/floyd.cpp.obj
+
+.PHONY : N4_ShortestPaths/floyd.obj
+
+# target to build an object file
+N4_ShortestPaths/floyd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.obj
+.PHONY : N4_ShortestPaths/floyd.cpp.obj
+
+N4_ShortestPaths/floyd.i: N4_ShortestPaths/floyd.cpp.i
+
+.PHONY : N4_ShortestPaths/floyd.i
+
+# target to preprocess a source file
+N4_ShortestPaths/floyd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.i
+.PHONY : N4_ShortestPaths/floyd.cpp.i
+
+N4_ShortestPaths/floyd.s: N4_ShortestPaths/floyd.cpp.s
+
+.PHONY : N4_ShortestPaths/floyd.s
+
+# target to generate assembly for a file
+N4_ShortestPaths/floyd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph.dir\build.make CMakeFiles/graph.dir/N4_ShortestPaths/floyd.cpp.s
+.PHONY : N4_ShortestPaths/floyd.cpp.s
 
 # Help Target
 help:
@@ -388,9 +442,15 @@ help:
 	@echo ... N3_MinimumSpanningTree/prim.obj
 	@echo ... N3_MinimumSpanningTree/prim.i
 	@echo ... N3_MinimumSpanningTree/prim.s
+	@echo ... N4_ShortestPaths/bellmanFord.obj
+	@echo ... N4_ShortestPaths/bellmanFord.i
+	@echo ... N4_ShortestPaths/bellmanFord.s
 	@echo ... N4_ShortestPaths/dijkstra.obj
 	@echo ... N4_ShortestPaths/dijkstra.i
 	@echo ... N4_ShortestPaths/dijkstra.s
+	@echo ... N4_ShortestPaths/floyd.obj
+	@echo ... N4_ShortestPaths/floyd.i
+	@echo ... N4_ShortestPaths/floyd.s
 .PHONY : help
 
 
