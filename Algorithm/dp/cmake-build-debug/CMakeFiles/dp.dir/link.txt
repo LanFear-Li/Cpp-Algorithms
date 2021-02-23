@@ -1,0 +1,3 @@
+"D:\ProfessionalSoftwares\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\dp.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\dp.dir/objects.a @CMakeFiles\dp.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\dp.dir/objects.a -Wl,--no-whole-archive  -o dp.exe -Wl,--out-implib,libdp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dp.dir\linklibs.rsp
