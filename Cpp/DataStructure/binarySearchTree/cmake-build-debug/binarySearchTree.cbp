@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug"/>
+				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug"/>
+				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binarySearchTree">
-				<Option output="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/binarySearchTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug"/>
+				<Option output="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/binarySearchTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -43,15 +43,15 @@
 					<Add directory="D:/IDE/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearchTree"/>
-					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearchTree"/>
+					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="binarySearchTree/fast">
-				<Option output="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/binarySearchTree.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug"/>
+				<Option output="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/binarySearchTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,33 +65,33 @@
 					<Add directory="D:/IDE/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearchTree/fast"/>
-					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 binarySearchTree/fast"/>
+					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug"/>
+				<Option working_dir="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/binarySearchTree.cpp">
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.cpp">
 			<Option target="binarySearchTree"/>
 		</Unit>
-		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/binarySearchTree.h">
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.h">
 			<Option target="binarySearchTree"/>
 		</Unit>
-		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/test.cpp">
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/test.cpp">
 			<Option target="binarySearchTree"/>
 		</Unit>
-		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/DataStructure/binarySearchTree/CMakeLists.txt">
+		<Unit filename="D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

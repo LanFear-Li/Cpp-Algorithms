@@ -5,6 +5,7 @@
 #include "iostream"
 #include "algorithm"
 #include "cstring"
+#include "stack"
 using namespace std;
 const int N = 1e5 + 100;
 const int INF = 0xfffffff;
@@ -14,6 +15,8 @@ int graph[N][N];
 int dist[N];
 bool vis[N];
 int vertices, edges;
+
+stack<int> s;
 
 void dijkstra() {
     memset(dist, INF, sizeof dist);

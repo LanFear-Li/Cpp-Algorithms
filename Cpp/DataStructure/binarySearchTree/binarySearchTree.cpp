@@ -46,15 +46,15 @@ void inorderTreeWalk(Node* node) {
 void preorderTreeWalk(Node* node) {
     if (node != nullptr) {
         std::cout << std::setw(8) << node->data;
-        inorderTreeWalk(node->left);
-        inorderTreeWalk(node->right);
+        preorderTreeWalk(node->left);
+        preorderTreeWalk(node->right);
     }
 }
 
 void postorderTreeWalk(Node* node) {
     if (node != nullptr) {
-        inorderTreeWalk(node->left);
-        inorderTreeWalk(node->right);
+        postorderTreeWalk(node->left);
+        postorderTreeWalk(node->right);
         std::cout << std::setw(8) << node->data;
     }
 }

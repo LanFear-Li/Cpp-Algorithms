@@ -62,10 +62,10 @@ RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree
+CMAKE_SOURCE_DIR = D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/binarySearchTree.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/binarySearchTree.dir/flags.make
 
 CMakeFiles/binarySearchTree.dir/test.cpp.obj: CMakeFiles/binarySearchTree.dir/flags.make
 CMakeFiles/binarySearchTree.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/binarySearchTree.dir/test.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\binarySearchTree.dir\test.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/binarySearchTree.dir/test.cpp.obj"
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\binarySearchTree.dir\test.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\test.cpp
 
 CMakeFiles/binarySearchTree.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binarySearchTree.dir/test.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\test.cpp > CMakeFiles\binarySearchTree.dir\test.cpp.i
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\test.cpp > CMakeFiles\binarySearchTree.dir\test.cpp.i
 
 CMakeFiles/binarySearchTree.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binarySearchTree.dir/test.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\test.cpp -o CMakeFiles\binarySearchTree.dir\test.cpp.s
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\test.cpp -o CMakeFiles\binarySearchTree.dir\test.cpp.s
 
 CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj: CMakeFiles/binarySearchTree.dir/flags.make
 CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj: ../binarySearchTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\binarySearchTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj"
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\binarySearchTree.cpp
 
 CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\binarySearchTree.cpp > CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.i
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\binarySearchTree.cpp > CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.i
 
 CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\binarySearchTree.cpp -o CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.s
+	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\binarySearchTree.cpp -o CMakeFiles\binarySearchTree.dir\binarySearchTree.cpp.s
 
 # Object files for target binarySearchTree
 binarySearchTree_OBJECTS = \
@@ -116,7 +116,7 @@ binarySearchTree.exe: CMakeFiles/binarySearchTree.dir/build.make
 binarySearchTree.exe: CMakeFiles/binarySearchTree.dir/linklibs.rsp
 binarySearchTree.exe: CMakeFiles/binarySearchTree.dir/objects1.rsp
 binarySearchTree.exe: CMakeFiles/binarySearchTree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable binarySearchTree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable binarySearchTree.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\binarySearchTree.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/binarySearchTree.dir/clean:
 .PHONY : CMakeFiles/binarySearchTree.dir/clean
 
 CMakeFiles/binarySearchTree.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles\binarySearchTree.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\binarySearchTree\cmake-build-debug\CMakeFiles\binarySearchTree.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/binarySearchTree.dir/depend
 
