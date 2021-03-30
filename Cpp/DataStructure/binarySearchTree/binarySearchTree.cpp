@@ -95,14 +95,14 @@ Node* treeSearch(Node* node, const int &x) {
 }
 
 Node* treeMinimum(Node* node) {
-    if (node->left != nullptr) {
+    while (node && node->left != nullptr) {
         node = node->left;
     }
     return node;
 }
 
 Node* treeMaximum(Node* node) {
-    if (node->right != nullptr) {
+    while (node && node->right != nullptr) {
         node = node->right;
     }
     return node;
@@ -253,4 +253,29 @@ void treeDelete(Tree* tree, Node* node) {
         tNode->left = node->left;
         tNode->left->p = tNode;
     }
+}
+
+Node* deleteNode(Node* root, int key) {
+    if (root == nullptr) {
+        return root;
+    } else if (root->data > key) {
+        root->left = deleteNode(root->left, key);
+    } else if (root->data < key) {
+        root->right = deleteNode(root->right, key);
+    } else {
+        if (root->left == nullptr) {
+            Node* node = root->right;
+            free(root);
+            return node;
+        } else if (root->right == nullptr) {
+            Node* node = root->left;
+            free(root);
+            return node;
+        } else {
+            Node* node = treeMinimum(root->right);
+            root->data = node->data;
+            root->right = deleteNode(root->right, node->data);
+        }
+    }
+    return root;
 }

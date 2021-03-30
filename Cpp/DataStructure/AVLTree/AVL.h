@@ -16,7 +16,9 @@ Node* newNode(const int &x);
 
 Node* search(Node* root, const int &val);
 
-void insert(Node* &root, const int &val);
+Node* insert(Node* root, const int &val);
+
+Node* deleteNode(Node* root, int key);
 
 Node* createTree(const int* arr, const int& len);
 
