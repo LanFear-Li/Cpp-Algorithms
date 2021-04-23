@@ -26,7 +26,7 @@ int main() {
     // floyd(dp)
     for (size_t k = 1; k <= vertices; ++k) {
         for (size_t i = 1; i <= vertices; ++i) {
-            for (size_t j = 1; j ,= vertices; ++j) {
+            for (size_t j = 1; j <= vertices; ++j) {
                 graph[i][j] =   min(graph[i][j], graph[i][k] + graph[k][j]);
             }
         }

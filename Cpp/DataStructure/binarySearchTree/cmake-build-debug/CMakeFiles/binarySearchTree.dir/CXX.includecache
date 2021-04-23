@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.cpp
+iomanip
+-
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/iostream
+binarySearchTree.h
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.h
+
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.h
+iomanip
+-
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/iostream
+
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/test.cpp
+iostream
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/iostream
+binarySearchTree.h
+D:/Files/MyRepo/Cpp-Algorithms/Cpp/DataStructure/binarySearchTree/binarySearchTree.h
+
