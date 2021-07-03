@@ -17,9 +17,16 @@ In exercise
 
 - bracketExperssion(C++) and bracketExperssion2.0(C) is on my way.
 
-------
-
 Edited by LanFear
 
 from 2020-12-27 to now
 
+------
+
+In algorithm
+
+- algoClass added(including programs in class)
+
+Edited by LanFear
+
+2021-7-3
