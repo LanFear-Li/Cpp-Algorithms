@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = D:\IDE\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\IDE\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = D:\IDE\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,28 +78,28 @@ include CMakeFiles/AVLTree.dir/flags.make
 CMakeFiles/AVLTree.dir/main.cpp.obj: CMakeFiles/AVLTree.dir/flags.make
 CMakeFiles/AVLTree.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AVLTree.dir/main.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AVLTree.dir\main.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AVLTree.dir\main.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp
 
 CMakeFiles/AVLTree.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVLTree.dir/main.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp > CMakeFiles\AVLTree.dir\main.cpp.i
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp > CMakeFiles\AVLTree.dir\main.cpp.i
 
 CMakeFiles/AVLTree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVLTree.dir/main.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp -o CMakeFiles\AVLTree.dir\main.cpp.s
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\main.cpp -o CMakeFiles\AVLTree.dir\main.cpp.s
 
 CMakeFiles/AVLTree.dir/AVL.cpp.obj: CMakeFiles/AVLTree.dir/flags.make
 CMakeFiles/AVLTree.dir/AVL.cpp.obj: ../AVL.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AVLTree.dir/AVL.cpp.obj"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AVLTree.dir\AVL.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AVLTree.dir\AVL.cpp.obj -c D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp
 
 CMakeFiles/AVLTree.dir/AVL.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVLTree.dir/AVL.cpp.i"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp > CMakeFiles\AVLTree.dir\AVL.cpp.i
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp > CMakeFiles\AVLTree.dir\AVL.cpp.i
 
 CMakeFiles/AVLTree.dir/AVL.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVLTree.dir/AVL.cpp.s"
-	D:\IDE\Dev-Cpp\MinGW64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp -o CMakeFiles\AVLTree.dir\AVL.cpp.s
+	D:\IDE\Compiler\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Files\MyRepo\Cpp-Algorithms\Cpp\DataStructure\AVLTree\AVL.cpp -o CMakeFiles\AVLTree.dir\AVL.cpp.s
 
 # Object files for target AVLTree
 AVLTree_OBJECTS = \

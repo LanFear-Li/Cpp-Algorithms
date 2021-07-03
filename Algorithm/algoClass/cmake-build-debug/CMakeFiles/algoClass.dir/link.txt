@@ -1,0 +1,3 @@
+D:\IDE\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\algoClass.dir/objects.a
+D:\IDE\Compiler\mingw64\bin\ar.exe cr CMakeFiles\algoClass.dir/objects.a @CMakeFiles\algoClass.dir\objects1.rsp
+D:\IDE\Compiler\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\algoClass.dir/objects.a -Wl,--no-whole-archive -o algoClass.exe -Wl,--out-implib,libalgoClass.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algoClass.dir\linklibs.rsp

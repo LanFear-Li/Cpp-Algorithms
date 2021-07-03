@@ -1,0 +1,3 @@
+D:/Files/CodeStorage/CLion/algoClass/Practice/FarmerCrossRiver/cmake-build-debug/CMakeFiles/FarmerCrossRiver.dir
+D:/Files/CodeStorage/CLion/algoClass/Practice/FarmerCrossRiver/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Files/CodeStorage/CLion/algoClass/Practice/FarmerCrossRiver/cmake-build-debug/CMakeFiles/rebuild_cache.dir

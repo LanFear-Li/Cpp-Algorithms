@@ -12,7 +12,7 @@
 //}
 
 // constructor can also be defined like this:
-Lango::Lango(int* _arr, int _lenscale): arr(_arr), lenscale(_lenscale) {
+Lango::Lango(int *_arr, int _lenscale) : arr(_arr), lenscale(_lenscale) {
     for (size_t i = 0; i < lenscale; ++i) {
         if (arr[i] > maxn) {
             maxn = arr[i];
@@ -28,7 +28,7 @@ Lango::~Lango() {
 void Lango::show() const {
     std::cout << "this array's length: " << lenscale << std::endl;
     std::cout << "the element is: ";
-    for (size_t i = 0; i <lenscale; ++i) {
+    for (size_t i = 0; i < lenscale; ++i) {
         std::cout << arr[i] << "\t";
     }
     std::cout << std::endl;
@@ -37,7 +37,7 @@ void Lango::show() const {
 // Sort_bubbleSort ************************************************************************************
 void Lango::bubbleSort() {
     for (size_t i = 0; i < lenscale - 1; ++i) {
-        for(size_t j = 0; j < lenscale - 1 - i; ++j) {
+        for (size_t j = 0; j < lenscale - 1 - i; ++j) {
             if (arr[j] > arr[j + 1]) {
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
@@ -51,7 +51,7 @@ void Lango::bubbleSort() {
 
 //  Sort_quickSort ************************************************************************************
 // partition belongs to the original quickSort
-int partition(int* arr, const int &l, const int &r) {
+int partition(int *arr, const int &l, const int &r) {
     int pivot = arr[r];
     int place = l - 1;
     for (size_t i = l; i < r; ++i) {
@@ -66,14 +66,14 @@ int partition(int* arr, const int &l, const int &r) {
 
 // randomPartition belongs to the original quickSort
 // it changes pivot and ensures the equality of the partition
-int randomPartition(int* arr, const int &l, const int &r) {
+int randomPartition(int *arr, const int &l, const int &r) {
     int place = rand() % (r - l + 1) + l;
     std::swap(arr[r], arr[place]);
     return partition(arr, l, r);
 }
 
 
-int hoarePartition(int* arr, const int &l, const int &r) {
+int hoarePartition(int *arr, const int &l, const int &r) {
     int x = arr[l];
     int i = l - 1, j = r + 1;
     while (true) {
@@ -120,7 +120,7 @@ void Lango::quickSort(const int &l, const int &r) {
 
 
 //  Sort_countingSort *********************************************************************************
-void Lango::countingSort(int* brr) {
+void Lango::countingSort(int *brr) {
     int crr[maxn + 1];
     for (size_t i = 0; i <= maxn; ++i) {
         crr[i] = 0;
@@ -148,10 +148,10 @@ void Lango::countingSort(int* brr) {
 #define leftChild(i)     (2 * i)
 #define rightChild(i)    (2 * i + 1)
 
-LanHeap::LanHeap(int* start, int* end) {
-    int* q = arr;
+LanHeap::LanHeap(int *start, int *end) {
+    int *q = arr;
     q++;
-    for (int* p = start; p != end; p++) {
+    for (int *p = start; p != end; p++) {
         *(q++) = *p;
     }
     length = end - start;
@@ -196,7 +196,7 @@ void LanHeap::buildMaxHeap() {
 void LanHeap::heapSort() {
     buildMaxHeap();
     for (size_t i = length; i >= 2; --i) {
-        std::swap(arr[1] , arr[i]);
+        std::swap(arr[1], arr[i]);
         heapSize--;
         maxHeapify(1);
     }
@@ -238,14 +238,14 @@ void LanHeap::heapIncreaseKey(int i, const int &key) {
 
 
 // Class-LanStack *************************************************************************************
-LanStack::LanStack(): top(0) {};
+LanStack::LanStack() : top(0) {};
 
 LanStack::~LanStack() {
     std::cout << "Bye!" << std::endl;
 }
 
 void LanStack::showStack() const {
-    std::cout << "the stack is empty: " << (bool)empty() << std::endl;
+    std::cout << "the stack is empty: " << (bool) empty() << std::endl;
     if (empty() == 1) {
         std::cout << "no element exists" << std::endl;
     } else {
@@ -253,7 +253,7 @@ void LanStack::showStack() const {
         for (size_t i = 0; i < top; ++i) {
             std::cout << std::setw(8) << arr[i];
         }
-        std:: cout << std::endl;
+        std::cout << std::endl;
     }
 }
 
@@ -279,9 +279,9 @@ int LanStack::pop() {
 
 
 // Class-LanQueue *************************************************************************************
-LanQueue::LanQueue(): head(0), tail(0) {}
+LanQueue::LanQueue() : head(0), tail(0) {}
 
-LanQueue::LanQueue(const int &_length): head(0), tail(0), length(_length) {}
+LanQueue::LanQueue(const int &_length) : head(0), tail(0), length(_length) {}
 
 LanQueue::~LanQueue() {
     std::cout << "Bye!" << std::endl;
@@ -305,7 +305,7 @@ void LanQueue::showQueue() const {
         std::cout << "this queue contains " << size() << " elements" << std::endl;
         std::cout << "the element is: ";
         if (head < tail) {
-            for (size_t i = head; i <tail; ++i) {
+            for (size_t i = head; i < tail; ++i) {
                 std::cout << std::setw(8) << arr[i];
             }
             std::cout << std::endl;
@@ -350,24 +350,24 @@ int LanQueue::dequeue() {
 
 
 // Class-LanLinkedList ********************************************************************************
-LanLinkedList::LanLinkedList(): size(0), head(NULL), tail(NULL) {}
+LanLinkedList::LanLinkedList() : size(0), head(NULL), tail(NULL) {}
 
 void LanLinkedList::showLinkedList() const {
-    Node* x = head;
+    Node *x = head;
     std::cout << "linkedList size is: " << size << std::endl;
     std::cout << "linkedList elements: " << std::endl;
     while (x != NULL) {
         if (x->next != NULL) {
-            std::cout << "data: " << x->key<< " next pointer's data: " << x->next->key << std::endl;
+            std::cout << "data: " << x->key << " next pointer's data: " << x->next->key << std::endl;
         } else {
-            std::cout << "data: " << x->key<< " it is the last element. " << std::endl;
+            std::cout << "data: " << x->key << " it is the last element. " << std::endl;
         }
         x = x->next;
     }
 }
 
 Node *LanLinkedList::listSearch(const int &k) {
-    Node* x = head;
+    Node *x = head;
     while (x != NULL && x->key != k) {
         x = x->next;
     }
@@ -375,7 +375,7 @@ Node *LanLinkedList::listSearch(const int &k) {
 }
 
 void LanLinkedList::listInsertFront(const int &x) {
-    Node* node = (Node *)(malloc(sizeof(node)));
+    Node *node = (Node *) (malloc(sizeof(node)));
     if (head == NULL) {
         node->prior = NULL;
         node->next = NULL;
@@ -393,7 +393,7 @@ void LanLinkedList::listInsertFront(const int &x) {
 }
 
 void LanLinkedList::listInsertAfter(const int &x) {
-    Node* node = (Node *)(malloc(sizeof(node)));
+    Node *node = (Node *) (malloc(sizeof(node)));
     if (tail == NULL) {
         node->prior = NULL;
         node->next = NULL;
@@ -410,8 +410,8 @@ void LanLinkedList::listInsertAfter(const int &x) {
     size += 1;
 }
 
-void LanLinkedList::listDeleteAfter(Node* x) {
-    Node* cur = head;
+void LanLinkedList::listDeleteAfter(Node *x) {
+    Node *cur = head;
     int count = 0;
 
     if (x->next == NULL) {

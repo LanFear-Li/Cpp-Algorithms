@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Files/CodeStorage/CLion/algoClass/Practice/FarmerCrossRiver/main.c
+stdio.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,3 @@
+D:\IDE\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\BTree.dir/objects.a
+D:\IDE\Compiler\mingw64\bin\ar.exe cr CMakeFiles\BTree.dir/objects.a @CMakeFiles\BTree.dir\objects1.rsp
+D:\IDE\Compiler\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\BTree.dir/objects.a -Wl,--no-whole-archive -o BTree.exe -Wl,--out-implib,libBTree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BTree.dir\linklibs.rsp

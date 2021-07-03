@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/IDE/Dev-Cpp/MinGW64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/IDE/Compiler/mingw64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

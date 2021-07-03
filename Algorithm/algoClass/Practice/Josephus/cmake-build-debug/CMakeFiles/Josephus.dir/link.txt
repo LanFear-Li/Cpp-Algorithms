@@ -1,0 +1,3 @@
+D:\IDE\CLion\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\Josephus.dir/objects.a
+D:\IDE\Compiler\mingw64\bin\ar.exe cr CMakeFiles\Josephus.dir/objects.a @CMakeFiles\Josephus.dir\objects1.rsp
+D:\IDE\Compiler\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Josephus.dir/objects.a -Wl,--no-whole-archive -o Josephus.exe -Wl,--out-implib,libJosephus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Josephus.dir\linklibs.rsp

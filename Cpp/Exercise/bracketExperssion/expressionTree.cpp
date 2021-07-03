@@ -29,7 +29,7 @@
 //    return str;
 //}
 
-std::string generateLeftSubstring(const std::string& x, const int& place) {
+std::string generateLeftSubstring(const std::string &x, const int &place) {
     std::string str;
     bool checkPossibility = true;
     for (size_t i = 0; i < place; ++i) {
@@ -51,7 +51,7 @@ std::string generateLeftSubstring(const std::string& x, const int& place) {
     }
 }
 
-std::string generateRightSubstring(const std::string& x, const int& place) {
+std::string generateRightSubstring(const std::string &x, const int &place) {
     std::string str;
     bool checkPossibility = true;
     for (size_t i = place + 1; i < x.size(); ++i) {
@@ -73,7 +73,7 @@ std::string generateRightSubstring(const std::string& x, const int& place) {
     }
 }
 
-bool isNumber(std::string& x) {
+bool isNumber(std::string &x) {
     for (size_t i = 0; i < x.size(); ++i) {
         if (i == 0 && x[i] == '-') {
             continue;
@@ -84,8 +84,8 @@ bool isNumber(std::string& x) {
     return true;
 }
 
-Node* buildExpressionTree(std::string& x) {
-    Node* node = new Node;
+Node *buildExpressionTree(std::string x) {
+    Node *node = new Node;
     int count = 0;
     if (isNumber(x)) {
         if (x[0] == '-') {
@@ -125,7 +125,7 @@ Node* buildExpressionTree(std::string& x) {
     return node;
 }
 
-int convertArrayToInt(Node* root) {
+int convertArrayToInt(Node *root) {
     int res = 0, cur = 1;
     for (int i = root->order - 1; i >= 0; --i) {
         res += cur * (root->str[i] - '0');
@@ -137,7 +137,7 @@ int convertArrayToInt(Node* root) {
     return res;
 }
 
-int calculation(Node* root) {
+int calculation(Node *root) {
     if (root->left == nullptr && root->right == nullptr) {
         return convertArrayToInt(root);
     } else {
@@ -154,6 +154,15 @@ int calculation(Node* root) {
                 return 0;
         }
     }
+}
+
+std::string format_string(std::string str) {
+    std::string s = str;
+    if (str[0] == '(' && str[str.length() - 1] == ')') {
+        s = str.substr(1);
+        s = s.substr(0, s.length() - 1);
+    }
+    return s;
 }
 
 // ******************************************************************************

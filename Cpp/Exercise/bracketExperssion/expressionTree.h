@@ -30,7 +30,9 @@ bool checkLegality(const std::string &x);
 
 //std::string modifyExpression(std::string x);
 
-Node* buildExpressionTree(std::string &x);
+std::string format_string(std::string str);
+
+Node* buildExpressionTree(std::string x);
 
 int calculation(Node* root);
 

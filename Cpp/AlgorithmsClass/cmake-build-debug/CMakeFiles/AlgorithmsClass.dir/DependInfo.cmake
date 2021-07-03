@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/Algorithms.cpp" "D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug/CMakeFiles/AlgorithmsClass.dir/Algorithms.cpp.obj"
-  "D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/test.cpp" "D:/Files/MyRepo/Cpp-Algorithms/AlgorithmsClass/cmake-build-debug/CMakeFiles/AlgorithmsClass.dir/test.cpp.obj"
+  "D:/Files/MyRepo/Cpp-Algorithms/Cpp/AlgorithmsClass/Algorithms.cpp" "D:/Files/MyRepo/Cpp-Algorithms/Cpp/AlgorithmsClass/cmake-build-debug/CMakeFiles/AlgorithmsClass.dir/Algorithms.cpp.obj"
+  "D:/Files/MyRepo/Cpp-Algorithms/Cpp/AlgorithmsClass/test.cpp" "D:/Files/MyRepo/Cpp-Algorithms/Cpp/AlgorithmsClass/cmake-build-debug/CMakeFiles/AlgorithmsClass.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

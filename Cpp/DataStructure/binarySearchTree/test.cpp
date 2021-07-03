@@ -4,8 +4,8 @@
 int main() {
     int arr[5] = {5, 2, 1, 4, 3};
     int len = sizeof arr / sizeof arr[0];
-    Tree* tree = new Tree;
-    for (size_t i = 0; i < len; ++i ) {
+    Tree *tree = new Tree;
+    for (size_t i = 0; i < len; ++i) {
         buildTree(tree, arr[i]);
     }
 
@@ -33,5 +33,10 @@ int main() {
     inorderTreeWalk(tree->root);
     std::cout << std::endl;
 
+    std::cout << findNodeHeight(tree, tree->root);
+
+    Node *node = findLCA(tree, tree->root->left, tree->root->right);
+
+    if (node == tree->root) std::cout << "fuck" << std::endl;
     return 0;
 }

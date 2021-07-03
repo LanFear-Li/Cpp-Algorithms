@@ -11,50 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f281400-d1de-4d4d-9f28-36fd9bc82412" name="Default Changelist" comment="avl tree added">
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/N4_ShortestPaths/floyd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/N4_ShortestPaths/floyd.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/CMakeFiles/graph.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Algorithm/graph/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVLTree.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/binarySearchTree.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/binarySearchTree.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/binarySearchTree.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../binarySearchTree/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list default="true" id="6f281400-d1de-4d4d-9f28-36fd9bc82412" name="Default Changelist" comment="avl tree added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,11 +53,6 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AVLTree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AVLTree" TARGET_NAME="AVLTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AVLTree" RUN_TARGET_NAME="AVLTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -127,6 +79,14 @@
       <workItem from="1617083205086" duration="3996000" />
       <workItem from="1617192522688" duration="1000" />
       <workItem from="1619099510288" duration="107000" />
+      <workItem from="1621255023342" duration="741000" />
+      <workItem from="1621307429337" duration="3000" />
+      <workItem from="1621909299325" duration="63000" />
+      <workItem from="1623119946257" duration="437000" />
+      <workItem from="1624186010177" duration="601000" />
+      <workItem from="1624275342049" duration="720000" />
+      <workItem from="1624950568493" duration="17000" />
+      <workItem from="1624953034278" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="avl tree added">
       <created>1616581713788</created>

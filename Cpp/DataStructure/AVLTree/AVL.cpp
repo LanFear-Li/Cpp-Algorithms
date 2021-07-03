@@ -4,10 +4,11 @@
 
 #include <iomanip>
 #include "AVL.h"
+
 using namespace std;
 
-Node* newNode(const int &key) {
-    Node* node = new Node;
+Node *newNode(const int &key) {
+    Node *node = new Node;
     node->val = key;
     node->height = 1;
     node->left = nullptr;
@@ -15,20 +16,20 @@ Node* newNode(const int &key) {
     return node;
 }
 
-int getHeight(Node* node) {
+int getHeight(Node *node) {
     if (node == nullptr) return 0;
     return node->height;
 }
 
-int getBalanceFactor(Node* node) {
+int getBalanceFactor(Node *node) {
     return getHeight(node->left) - getHeight(node->right);
 }
 
-void updateHeight(Node* node) {
+void updateHeight(Node *node) {
     node->height = max(getHeight(node->left), getHeight(node->right)) + 1;
 }
 
-Node* search(Node* root, const int &val) {
+Node *search(Node *root, const int &val) {
     if (root == nullptr) {
         cout << "tree is empty, search failed!" << endl;
         return nullptr;
@@ -43,8 +44,8 @@ Node* search(Node* root, const int &val) {
     }
 }
 
-Node* leftRotation(Node* root) {
-    Node* temp = root->right;
+Node *leftRotation(Node *root) {
+    Node *temp = root->right;
     root->right = temp->left;
     temp->left = root;
     updateHeight(root);
@@ -52,8 +53,8 @@ Node* leftRotation(Node* root) {
     return temp;
 }
 
-Node* rightRotation(Node* root) {
-    Node* temp = root->left;
+Node *rightRotation(Node *root) {
+    Node *temp = root->left;
     root->left = temp->right;
     temp->right = root;
     updateHeight(root);
@@ -83,8 +84,8 @@ Node* rightRotation(Node* root) {
 //    }
 //}
 
-// recursion loop
-Node* insert(Node* root, const int &val) {
+// recursion insert
+Node *insert(Node *root, const int &val) {
     if (root == nullptr) {
         return newNode(val);
     }
@@ -115,13 +116,13 @@ Node* insert(Node* root, const int &val) {
     return root;
 }
 
-Node* minValue(Node* node) {
-    Node* current = node;
+Node *minValue(Node *node) {
+    Node *current = node;
     while (current->left != nullptr) current = current->left;
     return current;
 }
 
-Node* deleteNode(Node* root, int key) {
+Node *deleteNode(Node *root, int key) {
     if (root == nullptr) {
         return root;
     } else if (root->val > key) {
@@ -130,15 +131,15 @@ Node* deleteNode(Node* root, int key) {
         root->right = deleteNode(root->right, key);
     } else {
         if (root->left == nullptr) {
-            Node* node = root->right;
+            Node *node = root->right;
             free(root);
             return node;
         } else if (root->right == nullptr) {
-            Node* node = root->left;
+            Node *node = root->left;
             free(root);
             return node;
         } else {
-            Node* node = minValue(root->right);
+            Node *node = minValue(root->right);
             root->val = node->val;
             root->right = deleteNode(root->right, node->val);
         }
@@ -165,15 +166,15 @@ Node* deleteNode(Node* root, int key) {
     return root;
 }
 
-Node* createTree(const int* arr, const int& len) {
-    Node* root = nullptr;
+Node *createTree(const int *arr, const int &len) {
+    Node *root = nullptr;
     for (int i = 0; i < len; ++i) {
         root = insert(root, arr[i]);
     }
     return root;
 }
 
-void inorderTreeWalk(Node* node) {
+void inorderTreeWalk(Node *node) {
     if (node != nullptr) {
         inorderTreeWalk(node->left);
         std::cout << std::setw(8) << node->val;
@@ -181,7 +182,7 @@ void inorderTreeWalk(Node* node) {
     }
 }
 
-void preorderTreeWalk(Node* node) {
+void preorderTreeWalk(Node *node) {
     if (node != nullptr) {
         std::cout << std::setw(8) << node->val;
         preorderTreeWalk(node->left);
@@ -189,7 +190,7 @@ void preorderTreeWalk(Node* node) {
     }
 }
 
-void postorderTreeWalk(Node* node) {
+void postorderTreeWalk(Node *node) {
     if (node != nullptr) {
         postorderTreeWalk(node->left);
         postorderTreeWalk(node->right);

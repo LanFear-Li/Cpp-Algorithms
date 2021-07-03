@@ -6,13 +6,13 @@
 #include "iostream"
 #include "binarySearchTree.h"
 
-void buildTree(Tree* tree, const int &val) {
-    Node* node = new Node;
+void buildTree(Tree *tree, const int &val) {
+    Node *node = new Node;
     node->data = val;
     if (tree->root == nullptr) {
         tree->root = node;
     } else {
-        Node* root = tree->root;
+        Node *root = tree->root;
         while (root != nullptr) {
             if (val < root->data) {
                 if (root->left == nullptr) {
@@ -35,7 +35,7 @@ void buildTree(Tree* tree, const int &val) {
     }
 }
 
-void inorderTreeWalk(Node* node) {
+void inorderTreeWalk(Node *node) {
     if (node != nullptr) {
         inorderTreeWalk(node->left);
         std::cout << std::setw(8) << node->data;
@@ -43,7 +43,7 @@ void inorderTreeWalk(Node* node) {
     }
 }
 
-void preorderTreeWalk(Node* node) {
+void preorderTreeWalk(Node *node) {
     if (node != nullptr) {
         std::cout << std::setw(8) << node->data;
         preorderTreeWalk(node->left);
@@ -51,7 +51,7 @@ void preorderTreeWalk(Node* node) {
     }
 }
 
-void postorderTreeWalk(Node* node) {
+void postorderTreeWalk(Node *node) {
     if (node != nullptr) {
         postorderTreeWalk(node->left);
         postorderTreeWalk(node->right);
@@ -60,9 +60,9 @@ void postorderTreeWalk(Node* node) {
 }
 
 // search function with recursion
-//Node* treeSearch(Node* node, const int &x) {
+//Node *treeSearch(Node *node, const int &x) {
 //    if (node == nullptr) {
-//        Node* tNode = new Node;
+//        Node *tNode = new Node;
 //        std::cout << "Couldn't find this element!" << std::endl;
 //        return tNode;
 //    } else if (node->data == x) {
@@ -77,7 +77,7 @@ void postorderTreeWalk(Node* node) {
 //}
 
 //  search function with iteration
-Node* treeSearch(Node* node, const int &x) {
+Node *treeSearch(Node *node, const int &x) {
     while (node != nullptr && node->data != x) {
         if (x < node->data) {
             node = node->left;
@@ -86,7 +86,7 @@ Node* treeSearch(Node* node, const int &x) {
         }
     }
     if (node == nullptr) {
-        Node* tNode = new Node;
+        Node *tNode = new Node;
         std::cout << "Couldn't find this element!" << std::endl;
         return tNode;
     } else {
@@ -94,25 +94,25 @@ Node* treeSearch(Node* node, const int &x) {
     }
 }
 
-Node* treeMinimum(Node* node) {
+Node *treeMinimum(Node *node) {
     while (node && node->left != nullptr) {
         node = node->left;
     }
     return node;
 }
 
-Node* treeMaximum(Node* node) {
+Node *treeMaximum(Node *node) {
     while (node && node->right != nullptr) {
         node = node->right;
     }
     return node;
 }
 
-Node* treeSuccessor(Node* node) {
+Node *treeSuccessor(Node *node) {
     if (node->right != nullptr) {
         return treeMinimum(node->right);
     } else {
-        Node* pNode = node->p;
+        Node *pNode = node->p;
         while (pNode != nullptr && node == pNode->right) {
             node = pNode;
             pNode = pNode->p;
@@ -121,17 +121,17 @@ Node* treeSuccessor(Node* node) {
             return pNode;
         } else {
             std::cout << "no successor exist!" << std::endl;
-            Node* tNode = new Node;
+            Node *tNode = new Node;
             return tNode;
         }
     }
 }
 
-Node* treePredecessor(Node* node) {
+Node *treePredecessor(Node *node) {
     if (node->left != nullptr) {
         return treeMaximum(node->left);
     } else {
-        Node* pNode = node->p;
+        Node *pNode = node->p;
         while (pNode != nullptr && node == pNode->left) {
             node = pNode;
             pNode = pNode->p;
@@ -140,16 +140,16 @@ Node* treePredecessor(Node* node) {
             return pNode;
         } else {
             std::cout << "no successor exist!" << std::endl;
-            Node* tNode = new Node;
+            Node *tNode = new Node;
             return tNode;
         }
     }
 }
 
-void treeInsert(Tree* tree, const int &val) {
-    Node* node = new Node;
-    Node* x = tree->root;
-    Node* y = nullptr;
+void treeInsert(Tree *tree, const int &val) {
+    Node *node = new Node;
+    Node *x = tree->root;
+    Node *y = nullptr;
     node->data = val;
     while (x != nullptr) {
         y = x;
@@ -170,7 +170,7 @@ void treeInsert(Tree* tree, const int &val) {
 }
 
 // delete function with if statements
-//void treeDelete(Tree* tree, Node* node) {
+//void treeDelete(Tree *tree, Node *node) {
 //    if (node->left == nullptr && node->right == nullptr) {
 //        if (node->p == nullptr) {
 //            node = nullptr;
@@ -181,7 +181,7 @@ void treeInsert(Tree* tree, const int &val) {
 //            node->p->right = nullptr;
 //        }
 //    } else if (node->left != nullptr && node->right != nullptr) {
-//        Node* keyNode = treeSuccessor(node);
+//        Node *keyNode = treeSuccessor(node);
 //        if (keyNode->p->left == keyNode) {
 //            keyNode->p->left = nullptr;
 //        } else {
@@ -223,7 +223,7 @@ void treeInsert(Tree* tree, const int &val) {
 //    free(node);
 //}
 
-void transplant(Tree* tree, Node* u, Node* v) {
+void transplant(Tree *tree, Node *u, Node *v) {
     if (u->p == nullptr) {
         tree->root = v;
     } else if (u->p->left != nullptr && u->p->left == u) {
@@ -237,13 +237,13 @@ void transplant(Tree* tree, Node* u, Node* v) {
 }
 
 // delete function with transplant (child tree)
-void treeDelete(Tree* tree, Node* node) {
+void treeDelete(Tree *tree, Node *node) {
     if (node->left == nullptr) {
         transplant(tree, node, node->right);
     } else if (node->right == nullptr) {
         transplant(tree, node, node->left);
     } else {
-        Node* tNode = treeMinimum(node->right);
+        Node *tNode = treeMinimum(node->right);
         if (tNode->p != node) {
             transplant(tree, tNode, tNode->right);
             tNode->right = node->right;
@@ -255,7 +255,7 @@ void treeDelete(Tree* tree, Node* node) {
     }
 }
 
-Node* deleteNode(Node* root, int key) {
+Node *deleteNode(Node *root, int key) {
     if (root == nullptr) {
         return root;
     } else if (root->data > key) {
@@ -264,18 +264,54 @@ Node* deleteNode(Node* root, int key) {
         root->right = deleteNode(root->right, key);
     } else {
         if (root->left == nullptr) {
-            Node* node = root->right;
+            Node *node = root->right;
             free(root);
             return node;
         } else if (root->right == nullptr) {
-            Node* node = root->left;
+            Node *node = root->left;
             free(root);
             return node;
         } else {
-            Node* node = treeMinimum(root->right);
+            Node *node = treeMinimum(root->right);
             root->data = node->data;
             root->right = deleteNode(root->right, node->data);
         }
     }
     return root;
+}
+
+int findNodeHeight(Tree *tree, Node *key) {
+    int height = 0;
+    Node *root = tree->root;
+    while (root != key) {
+        height++;
+        if (key->data < root->data) {
+            root = root->left;
+        } else {
+            root - root->right;
+        }
+    }
+    return height;
+}
+
+Node *findLCA(Tree *tree, Node *a, Node *b) {
+    Node *left, *right;
+    if (a->data < b->data) {
+        left = a;
+        right = b;
+    } else {
+        left = b;
+        right = a;
+    }
+
+    Node *root = tree->root;
+    while (true) {
+        if (root->data >= left->data && root->data <= right->data) {
+            return root;
+        } else if (root->data < left->data) {
+            root = root->left;
+        } else {
+            root = root->right;
+        }
+    }
 }

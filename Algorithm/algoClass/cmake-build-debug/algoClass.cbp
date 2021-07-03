@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="algoClass"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoClass">
+				<Option output="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/algoClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 algoClass"/>
+					<CompileFile command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algoClass/fast">
+				<Option output="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/algoClass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/IDE/Compiler/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 algoClass/fast"/>
+					<CompileFile command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDE/Compiler/mingw64/bin/mingw32-make.exe -f &quot;D:/Files/CodeStorage/CLion/algoClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/AVL.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/AVL.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/BST.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/BST.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Dic.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Dic.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Graph.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Graph.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Heap.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Heap.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/List.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/List.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Queue.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Queue.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Set.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Set.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Sort.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Sort.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Stack.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Stack.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/String.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/String.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/ThrTree.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/ThrTree.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Tree.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Tree.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Util.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/Util.h">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/zzz.c">
+			<Option target="algoClass"/>
+		</Unit>
+		<Unit filename="D:/Files/CodeStorage/CLion/algoClass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
